@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# Mise à jour du système
+apt update && apt upgrade -y
+
+# Installation d'Apache
+apt install apache2 -y
+systemctl enable apache2
+
+# Installation de MariaDB
+apt install mariadb-server -y
+
+# Installation de PHP et ses dépendances
+apt install ca-certificates apt-transport-https software-properties-common lsb-release curl -y
+curl -sSL https://packages.sury.org/php/README.txt | bash -x
+apt update
+apt install php8.3 libapache2-mod-php php8.3-{ldap,imap,apcu,xmlrpc,curl,common,gd,mbstring,mysql,xml,intl,zip,bz2} -y
+
+# Configuration de MariaDB
+mysql -e "CREATE DATABASE glpidb CHARACTER SET utf8 COLLATE utf8_bin;"
+mysql -e "GRANT ALL PRIVILEGES ON glpidb.* TO 'glpi'@'localhost' IDENTIFIED BY 'Azerty1*';"
+mysql -e "FLUSH PRIVILEGES;"
+
+# Téléchargement et installation de GLPI
+wget https://github.com/glpi-project/glpi/releases/download/10.0.15/glpi-10.0.15.tgz
+mkdir /var/www/html/glpi.billu.lan
+tar -xzvf glpi-10.0.15.tgz -C /var/www/html/glpi.billu.lan --strip-components=1
+rm /var/www/html/index.html
+chown -R www-data:www-data /var/www/html/glpi.billu.lan
+chmod -R 775 /var/www/html/glpi.billu.lan
+
+# Configuration de PHP
+sed -i 's/memory_limit = .*/memory_limit = 64M/' /etc/php/8.3/apache2/php.ini
+sed -i 's/max_execution_time = .*/max_execution_time = 600/' /etc/php/8.3/apache2/php.ini
+
+# Redémarrage d'Apache
+systemctl restart apache2
+
+echo "Installation de GLPI terminée. Accédez à http://votre_ip/glpi.billu.lan pour finaliser la configuration."
