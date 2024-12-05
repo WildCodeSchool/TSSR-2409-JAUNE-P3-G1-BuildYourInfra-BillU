@@ -5,14 +5,19 @@
 
 ### Prérequis pour Windows serveur 2022
 
-Environment de test sur Proxmox 
-    Memory      4 GB
-    Processors  2 
-    Reseau      vmbr525
+Environment de test sur Proxmox
 
-  IP de réseau     : 172.18.0.0/16 
-  IP de passerelle : 172.18.255.254 
-  IP DNS           : 172.15.255.254 
+* Memory      4 GB
+    
+* Processors  2 
+    
+* Reseau      vmbr525
+
+* IP de réseau     : 172.18.0.0/16 
+  
+* IP de passerelle : 172.18.255.254 
+  
+* IP DNS           : 172.15.255.254 
 
 1. **Installation des roles**
 
