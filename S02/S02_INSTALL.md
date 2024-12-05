@@ -10,21 +10,25 @@ Environment de test sur Proxmox
     Processors  2 
     Reseau      vmbr525
 
-  IP de réseau     : 172.18.0.0/16
-  IP de passerelle : 172.18.255.254
-  IP DNS           : 172.15.255.254
+  IP de réseau     : 172.18.0.0/16 
+  IP de passerelle : 172.18.255.254 
+  IP DNS           : 172.15.255.254 
 
 1. **Installation des roles**
 
-   ![](./Resources/Manage%20add%20roles.png)
+   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/3ce96eab545432bb39b253f41d960e9c5f3856f6/Resources/Manage%20add%20roles.png)
 
    Choisir : Add Roles and Festures
 
-   ![](./Resources/choix%20du%20serveur.png)
+   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/3ce96eab545432bb39b253f41d960e9c5f3856f6/Resources/choix%20du%20serveur.png)
 
    Choisir le serveur
 
-   ![](./Resources/choix%20des%20roles.png)
+   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/3ce96eab545432bb39b253f41d960e9c5f3856f6/Resources/choix%20des%20roles.png)
+
+   Choisir les roles a installer
+
+   
 
    
 
