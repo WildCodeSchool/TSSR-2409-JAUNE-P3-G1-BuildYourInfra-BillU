@@ -5,7 +5,7 @@
 
 ### 1.1 Prérequis Active Directory 
 
-- Avoir un serveur Windows 2022 (avoir la version la plus récente possible)
+- Avoir un serveur Windows 2022 en graphique
 
 ### Prérequis pour Windows serveur 2022
 
@@ -23,7 +23,7 @@ Environment de test sur Proxmox en VM
   
 * IP DNS           : 172.15.255.254 
 
-## 2. **Installation Active Directory**
+## 2. Installation Active Directory
 
 Choisir le serveur cible dans l'interface de Server Manager. 
 
@@ -34,9 +34,6 @@ Puis, allez dans `Manage` > `Add Roles and Festures`
 ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/3ce96eab545432bb39b253f41d960e9c5f3856f6/Resources/Manage%20add%20roles.png)
 
    
-
-   
-
    Choisir le serveur
 
    ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/3ce96eab545432bb39b253f41d960e9c5f3856f6/Resources/choix%20des%20roles.png)
@@ -59,8 +56,8 @@ Puis, allez dans `Manage` > `Add Roles and Festures`
    screen
    
    
-
-   
+## 3. Ajout d'un serveur Windows Core à un serveur Windows graphique
+## 4. Créer une Unité organisationnelle et des groupes de sécurités sur Active Directory
 
    
 
