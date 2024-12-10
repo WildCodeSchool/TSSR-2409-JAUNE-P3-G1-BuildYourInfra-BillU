@@ -39,25 +39,32 @@ Puis, allez dans `Manage` > `Add Roles and Festures`
    ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/3ce96eab545432bb39b253f41d960e9c5f3856f6/Resources/choix%20des%20roles.png)
 
    Choisir les roles à installer
+   
    sceen role 
 
    Vérifier l'isntallation de la feature `Group Policy Management`
+   
    Screen
+   
    Redémarrarez puis commencez la configuration post instalaltion. 
    Screen
+   
    Donnez un nom à votre nouveau domaine Active Directory.
    Screen
+   
    Choissiez le niveau fonctionnel le plus élévé pour votre domaine et votre forêt
    Screen
+   
    Laissez les chemins par défauts pour les dossiers `NTDS` & `SYSVOL`
    Screen
+
 
    Continuez l'instalaltion jusqu'à l'écran de vérifications finales puis finalisez l'isntalaltion
    screen
    
    
 ## 3. Ajout d'un serveur Windows Core à un serveur Windows graphique
-## 4. Créer une Unité organisationnelle et des groupes de sécurités sur Active Directory
+## 4. Créer une Unité Organisationnelle et des groupes de sécurités sur Active Directory
 
    
 
