@@ -100,8 +100,17 @@ Après le redémarrage :
 
 ## Contrôler Windows Server Core depuis Windows Server 2022
 
-Une fois le serveur Core intégré au domaine, vous pouvez le gérer facilement depuis un serveur Windows Server 2022 avec interface graphique. Il suffit d'utiliser le *Server Manager* pour ajouter le serveur Windows Core à la liste des serveurs et effectuer des tâches d'administration, comme la gestion des rôles ou des fonctionnalités.  
+Une fois le serveur Core intégré au domaine, vous pouvez le gérer facilement depuis un serveur Windows Server 2022 avec interface graphique.
 
+    ![SS5](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/a09caebfba4f7dae7c7374a4c6ef710b28d34fb9/Resources/s02/S02%20WinCORE%2005%20windows%20server%20manager.png) 
+
+Il suffit d'utiliser le *Server Manager* pour ajouter le serveur Windows Core à la liste des serveurs.
+
+    ![SS6](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/a09caebfba4f7dae7c7374a4c6ef710b28d34fb9/Resources/s02/S02%20WinCORE%2006%20windows%20server%20manager%20add.png)
+    
+Effectuer des tâches d'administration, comme la gestion des rôles ou des fonctionnalités.
+
+    ![SS7](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/a09caebfba4f7dae7c7374a4c6ef710b28d34fb9/Resources/s02/S02%20WinCORE%2007%20windows%20server%20manager%20final.png)
 
 ## 4. Créer une Unité Organisationnelle et des groupes de sécurités sur Active Directory
 
