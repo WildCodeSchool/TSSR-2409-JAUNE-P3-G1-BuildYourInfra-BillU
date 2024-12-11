@@ -64,6 +64,39 @@ Puis, allez dans `Manage` > `Add Roles and Festures`
    
    
 ## 3. Ajout d'un serveur Windows Core à un serveur Windows graphique
+
+### Étape 1 : Connexion au serveur Windows Core
+1. Connectez-vous au serveur Windows Core avec un compte administrateur local.
+2. Tapez la commande `SConfig` dans l'invite de commande et appuyez sur Entrée.
+
+### Étape 2 : Modifier le nom de l'ordinateur
+1. Sur l'écran de configuration du serveur (*Server Configuration*), sélectionnez l'option **2** en tapant `2` pour modifier le nom de l'ordinateur.
+2. Saisissez le nouveau nom (*WINCORE-1*) pour le serveur Core et appuyez sur Entrée. 
+3. Redémarrez le serveur lorsqu'on vous le demande.
+
+   ![](link)
+
+### Étape 3 : Rejoindre le domaine Active Directory
+1. Après le redémarrage, reconnectez-vous au serveur et relancez `SConfig`.
+2. Sélectionnez l'option **1** (*Domain/Workgroup*) en tapant `1`.
+3. Tapez `D` pour joindre un domaine.
+4. Indiquez le nom du domaine et un utilisateur autorisé dans le format `billu.lan`.
+5. Saisissez le mot de passe de l'utilisateur lorsque vous y êtes invité.
+
+    ![](link)
+
+### Étape 4 : Finaliser l'intégration
+1. Si on vous propose de changer le nom de l'ordinateur à nouveau, sélectionnez **Non** (puisque cela a déjà été fait).
+2. Redémarrez le serveur pour terminer le processus.
+
+### Vérification
+Après le redémarrage :
+- Connectez-vous au serveur avec les informations d'identification du domaine.
+- Tapez `SConfig` pour confirmer que le serveur est bien joint au domaine Active Directory.
+
+    ![](link)
+
+
 ## 4. Créer une Unité Organisationnelle et des groupes de sécurités sur Active Directory
 
    
