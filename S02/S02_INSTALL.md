@@ -69,12 +69,14 @@ Puis, allez dans `Manage` > `Add Roles and Festures`
 1. Connectez-vous au serveur Windows Core avec un compte administrateur local.
 2. Tapez la commande `SConfig` dans l'invite de commande et appuyez sur Entrée.
 
+    ![Sconfig](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/56fcfe942535d9f5b9fd5b683e1da38e8e58a018/Resources/s02/S02%20WinCORE%2001%20Sconfig.png)
+    
 ### Étape 2 : Modifier le nom de l'ordinateur
 1. Sur l'écran de configuration du serveur (*Server Configuration*), sélectionnez l'option **2** en tapant `2` pour modifier le nom de l'ordinateur.
 2. Saisissez le nouveau nom (*WINCORE-1*) pour le serveur Core et appuyez sur Entrée. 
 3. Redémarrez le serveur lorsqu'on vous le demande.
 
-   ![](link)
+   ![SS2](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/56fcfe942535d9f5b9fd5b683e1da38e8e58a018/Resources/s02/S02%20WinCORE%2002%20computer%20name.png))
 
 ### Étape 3 : Rejoindre le domaine Active Directory
 1. Après le redémarrage, reconnectez-vous au serveur et relancez `SConfig`.
@@ -83,7 +85,7 @@ Puis, allez dans `Manage` > `Add Roles and Festures`
 4. Indiquez le nom du domaine et un utilisateur autorisé dans le format `billu.lan`.
 5. Saisissez le mot de passe de l'utilisateur lorsque vous y êtes invité.
 
-    ![](link)
+    ![SS3](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/56fcfe942535d9f5b9fd5b683e1da38e8e58a018/Resources/s02/S02%20WinCORE%2003%20Change%20Domain.png))
 
 ### Étape 4 : Finaliser l'intégration
 1. Si on vous propose de changer le nom de l'ordinateur à nouveau, sélectionnez **Non** (puisque cela a déjà été fait).
@@ -94,7 +96,7 @@ Après le redémarrage :
 - Connectez-vous au serveur avec les informations d'identification du domaine.
 - Tapez `SConfig` pour confirmer que le serveur est bien joint au domaine Active Directory.
 
-    ![](link)
+    ![SS4](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/56fcfe942535d9f5b9fd5b683e1da38e8e58a018/Resources/s02/S02%20WinCORE%2004%20final.png))
 
 
 ## 4. Créer une Unité Organisationnelle et des groupes de sécurités sur Active Directory
