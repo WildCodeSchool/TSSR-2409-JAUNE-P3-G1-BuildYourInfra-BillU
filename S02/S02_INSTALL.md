@@ -114,6 +114,54 @@ Après le redémarrage :
 
 ## 4. Créer une Unité Organisationnelle et des groupes de sécurités sur Active Directory
 
+### Étape 1 : Accéder à la console Active Directory Users and Computers
+1. Connectez-vous à un serveur Windows avec l'interface graphique et les outils d'administration Active Directory installés.
+2. Ouvrez l'outil **Active Directory Users and Computers**.
+
+    ![ADUC](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/b9b466c9493b1d0a228a7b2feff6877fccedadc6/Resources/s02/S02%20OU%20et%20des%20groupes%2001.png)
+
+### Étape 2 : Créer une nouvelle Unité Organisationnelle
+1. Dans la console ADUC, naviguez jusqu'au domaine billu.lan (ou domaine souhaité).
+2. Faites un clic droit sur le domaine et sélectionnez **New > Organizational Unit**.
+
+    ![SS2](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/b9b466c9493b1d0a228a7b2feff6877fccedadc6/Resources/s02/S02%20OU%20et%20des%20groupes%2002.png)
+
+3. Donnez un nom à votre Unité Organisationnelle et cliquez sur **OK**.
+
+    ![SS3](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/b9b466c9493b1d0a228a7b2feff6877fccedadc6/Resources/s02/S02%20OU%20et%20des%20groupes%2003.png)
+
+4. La nouvelle Unité Organisationnelle apparaît dans la structure Active Directory.
+
+### Étape 3 : Créer un groupe de sécurité
+1. Naviguez jusqu'à l'Unité Organisationnelle que vous venez de créer.
+2. Faites un clic droit sur l'Unité Organisationnelle et sélectionnez **New > Group**.
+
+
+3. Donnez un nom à votre groupe.
+4. Configurez les paramètres du groupe :
+   - **Group Scope** : Choisissez **Global**.
+   - **Group Type** : Sélectionnez **Security**.
+5. Cliquez sur **OK** pour créer le groupe.
+
+    ![SS4](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/b9b466c9493b1d0a228a7b2feff6877fccedadc6/Resources/s02/S02%20OU%20et%20des%20groupes%2004.png)
+
+### Étape 4 : Ajouter des membres au groupe
+1. Faites un clic droit sur le groupe nouvellement créé et sélectionnez **Properties**.
+2. Allez à l’onglet **Members** et cliquez sur **Add**.
+
+    ![SS6](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/b9b466c9493b1d0a228a7b2feff6877fccedadc6/Resources/s02/S02%20OU%20et%20des%20groupes%2005.png)
+
+3. Saisissez les noms des utilisateurs ou groupes que vous souhaitez ajouter, puis cliquez sur **Check Names** pour valider.
+4. Une fois les membres ajoutés, cliquez sur **OK** pour sauvegarder.
+
+
+### Vérification
+- Retournez à l’onglet **Members** dans les propriétés du groupe pour confirmer que les membres ont été correctement ajoutés.
+- Naviguez dans l’Unité Organisationnelle pour vérifier que le groupe et ses membres sont présents.
+
+    ![SS8](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/b9b466c9493b1d0a228a7b2feff6877fccedadc6/Resources/s02/S02%20OU%20et%20des%20groupes%2006.png)
+
+
    
 
    
