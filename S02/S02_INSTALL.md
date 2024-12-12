@@ -149,7 +149,7 @@ Après le redémarrage :
 1. Faites un clic droit sur le groupe nouvellement créé et sélectionnez **Properties**.
 2. Allez à l’onglet **Members** et cliquez sur **Add**.
 
-    ![SS6](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/b9b466c9493b1d0a228a7b2feff6877fccedadc6/Resources/s02/S02%20OU%20et%20des%20groupes%2005.png)
+    ![SS6](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/e68f1869c36250bbd8e136f2888cdf7f3782f437/Resources/s02/Capture%20d'%C3%A9cran%202024-12-12%20101820.png)
 
 3. Saisissez les noms des utilisateurs ou groupes que vous souhaitez ajouter, puis cliquez sur **Check Names** pour valider.
 4. Une fois les membres ajoutés, cliquez sur **OK** pour sauvegarder.
@@ -159,7 +159,7 @@ Après le redémarrage :
 - Retournez à l’onglet **Members** dans les propriétés du groupe pour confirmer que les membres ont été correctement ajoutés.
 - Naviguez dans l’Unité Organisationnelle pour vérifier que le groupe et ses membres sont présents.
 
-    ![SS8](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/b9b466c9493b1d0a228a7b2feff6877fccedadc6/Resources/s02/S02%20OU%20et%20des%20groupes%2006.png)
+    ![SS8](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/243c5fa9a416d9110adabca05519b405bfa1b77b/Resources/s02/Capture%20d'%C3%A9cran%202024-12-12%20101900.png)
 
 
    
