@@ -1,0 +1,33 @@
+# Définir le chemin du fichier CSV et le dossier racine où créer les dossiers
+$csvFile = "C:\Chemin\vers\utilisateurs.csv"
+$racineDossier = "E:\Partages\Individuels"
+
+# Vérifier si le fichier CSV existe
+if (-Not (Test-Path $csvFile)) {
+    Write-Error "Le fichier CSV n'existe pas : $csvFile"
+    exit
+}
+
+# Importer le contenu du fichier CSV
+$utilisateurs = Import-Csv -Path $csvFile -Delimiter ','
+
+# Boucle pour créer les dossiers
+foreach ($utilisateur in $utilisateurs) {
+    # Construire le chemin complet du dossier
+    $nomDossier = Join-Path -Path $racineDossier -ChildPath $utilisateur.Dossier
+
+    # Vérifier si le dossier existe déjà
+    if (-Not (Test-Path $nomDossier)) {
+        try {
+            # Créer le dossier
+            New-Item -Path $nomDossier -ItemType Directory -Force
+            Write-Host "Dossier créé : $nomDossier" -ForegroundColor Green
+        } catch {
+            Write-Error "Erreur lors de la création du dossier $nomDossier : $_"
+        }
+    } else {
+        Write-Host "Le dossier existe déjà : $nomDossier" -ForegroundColor Yellow
+    }
+}
+
+Write-Host "Création des dossiers terminée !" -ForegroundColor Cyan
