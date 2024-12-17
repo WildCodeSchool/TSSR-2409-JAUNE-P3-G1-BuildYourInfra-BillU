@@ -35,7 +35,60 @@ Add-AccessRule -path "C:\Documents_Entreprise\Comptabilité" -identityReference 
 Add-AccessRule -path "C:\Documents_Entreprise\Direction" -identityReference "wilder.lan\Direction" -rights "FullControl"
 
 # Donner la permission sur tout les dossiers au groupe direction 
+Add-AccessRule -path "C:\Documents_Entreprise\RH" -identityReference "wilder.lan\Direction" -rights "FullControl"# Nom du serveur et du partage
+$serveur = "WINGUI-1"
+$partage = "Docs"
+$dossier_partage = "C:\Documents_Entreprise"
+
+# Création du dossier et des sous-dossiers si nécessaire
+New-Item -Path $dossier_partage -ItemType directory -Force
+New-Item -Path "$dossier_partage\Service Recrutement" -ItemType directory -Force
+New-Item -Path "$dossier_partage\Finance et Comptabilité" -ItemType directory -Force
+New-Item -Path "$dossier_partage\QHSE" -ItemType directory -Force
+New-Item -Path "$dossier_partage\DSI" -ItemType directory -Force
+New-Item -Path "$dossier_partage\Service Commercial" -ItemType directory -Force
+New-Item -Path "$dossier_partage\Communication et Relations Publiques" -ItemType directory -Force
+New-Item -Path "$dossier_partage\Développement Logiciel" -ItemType directory -Force
+New-Item -Path "$dossier_partage\Departement juridique" -ItemType directory -Force
+New-Item -Path "$dossier_partage\Direction" -ItemType directory -Force
+
+# Création du partage SMB
+New-SmbShare -Name $partage -Path $dossier_partage
+
+# Configuration des permissions NTFS
+$groupe_rh = "billu.lan\Service Recrutement"
+$groupe_compta = "billu.lan\Finance et Comptabilité"
+$groupe_direction = "billu.lan\Direction"
+$groupe_QHSE = 
+
+function Add-AccessRule {
+  param(
+      [Parameter(Mandatory)]
+      [string]$path,
+      [string]$identityReference,
+      [string]$rights
+  )
+
+  $acl = Get-Acl $path
+  $rule = New-Object System.Security.AccessControl.FileSystemAccessRule($identityReference, $rights, "Allow")
+  $acl.AddAccessRule($rule)
+  Set-Acl -Path $path -AclObject $acl
+}
+# Ajouter les permissions aux groupes
+Add-AccessRule -path "C:\Documents_Entreprise\RH" -identityReference "wilder.lan\RH" -rights "FullControl"
+Add-AccessRule -path "C:\Documents_Entreprise\Comptabilité" -identityReference "wilder.lan\Comptabilité" -rights "FullControl"
+Add-AccessRule -path "C:\Documents_Entreprise\Direction" -identityReference "wilder.lan\Direction" -rights "FullControl"
+
+# Donner la permission sur tout les dossiers au groupe direction 
 Add-AccessRule -path "C:\Documents_Entreprise\RH" -identityReference "wilder.lan\Direction" -rights "FullControl"
+Add-AccessRule -path "C:\Documents_Entreprise\Comptabilité" -identityReference "wilder.lan\Direction" -rights "FullControl"
+
+# Donner la permission en lecture seul aux utilisateurs du domaine
+
+Add-AccessRule -path "C:\Documents_Entreprise" -identityReference "Everyone" -rights "Read"
+
+# Vérifier les partages
+Get-SmbShare
 Add-AccessRule -path "C:\Documents_Entreprise\Comptabilité" -identityReference "wilder.lan\Direction" -rights "FullControl"
 
 # Donner la permission en lecture seul aux utilisateurs du domaine
