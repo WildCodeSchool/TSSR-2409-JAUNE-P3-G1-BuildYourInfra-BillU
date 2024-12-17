@@ -1,5 +1,5 @@
 # Nom du serveur et du partage
-$serveur = "SRVWIN01"
+$serveur = "WINGUI-1"
 $partage = "Docs"
 $dossier_partage = "C:\Documents_Entreprise"
 
