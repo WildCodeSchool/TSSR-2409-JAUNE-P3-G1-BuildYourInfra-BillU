@@ -35,19 +35,44 @@ Par sprint :
 # S01
 
 1. Faire une proposition d'objectif par sprint pour l'ensemble de la formation
-   ![](./Resources/Capture%20d'%C3%A9cran%202024-12-03%20113315.png)
+   
+   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/980f2ce906fb85a4b45f7f7f81248ef34d80e733/Resources/Planning.png)
 3. Établir un schéma réseau prévisionnel de l'infrastructure
-   ![](./Resources/Capture%20d'%C3%A9cran%202024-12-03%20112431.png)
+
+   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/980f2ce906fb85a4b45f7f7f81248ef34d80e733/Resources/Sch%C3%A9ma%20provisoire.png)
 
 # S02
 
-Choix techniques : quel OS, quelle version, etc.
-Difficultés rencontrées : problèmes techniques rencontrés
-Solutions trouvées : Solutions et alternatives trouvées
-Améliorations possibles : suggestions d’améliorations futures
+Création d'un domaine AD sur un serveur Windows Server 2022 en GUI avec les rôles AD-DC et DHCP et DNS et une replication du role AD-DC sur un serveur Windows Server 2022 Core.
+
+   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/980f2ce906fb85a4b45f7f7f81248ef34d80e733/Resources/s02/capture_install_adds_role.png)
+
+   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/980f2ce906fb85a4b45f7f7f81248ef34d80e733/Resources/s02/adds_config_path.png)
+
+   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/980f2ce906fb85a4b45f7f7f81248ef34d80e733/Resources/s02/S02%20WinCORE%2004%20final.png)
+
+   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/980f2ce906fb85a4b45f7f7f81248ef34d80e733/Resources/s02/S02%20WinCORE%2003%20Change%20Domain.png)
+    
+Creation d'une arborescense AD avec une creation d'OU et creation des groupes avec une convention de nommage.
+
+  
+
+   ![](
+
+Integration des utilisateurs a l'AD-DC
 
 # S03
 
+Creation de GPO de securité et de GPO standard.
+
+Mise en place d'un serveur GLPI 
+
 # S04
 
+Creation d'un GPO pour la gestion de la télémetrie.
+
+Configuration du Firewall PFSense et mise en place de regles 
+
 # S05
+
+Creation d'un serveur windows pour la gestion des sauvegardes en RAIS 1 et des Dossiers pratages 
