@@ -21,7 +21,7 @@ Des personnels extérieurs travaillent ponctuellement ou à temps plein avec cer
 |  S02 |  Erwan | Christophe  | Antoine  |  Sam |
 | S03  |  Christophe | Erwan  | Sam | Antoine  |
 |  S04 |  Sam | Antoine  | Erwan  | Christophe  |
-|  S05 |   |   |   |   |
+|  S05 |  Antoine |  Christophe |  Erwan |   |
 | S06  |   |   |   |   |
 | S07  |   |   |   |   |
 |  S08 |   |   |   |   |
