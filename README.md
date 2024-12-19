@@ -102,3 +102,5 @@ Creation d'un serveur windows pour la gestion des sauvegardes en RAID 1 et des D
 ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/4f3236203f9aa6ff0d278af932faaa275fd6ff66/S05/Raid%20en%20formatage.png)
 
 ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/4f3236203f9aa6ff0d278af932faaa275fd6ff66/S05/Raid%20reussi.png)
+
+![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/75b6f1ddfe7216985c15eb1441bedf09c67d88a2/S05/Capture%20d'%C3%A9cran%202024-12-19%20103326.png)
