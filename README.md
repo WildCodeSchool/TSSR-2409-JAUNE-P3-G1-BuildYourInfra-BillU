@@ -93,7 +93,7 @@ Configuration du Firewall PFSense et mise en place de regles
    
 # S05
 
-Creation d'un serveur windows pour la gestion des sauvegardes en RAIS 1 et des Dossiers pratages 
+Creation d'un serveur windows pour la gestion des sauvegardes en RAID 1 et des Dossiers pratages 
 
 ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/4f3236203f9aa6ff0d278af932faaa275fd6ff66/S05/Mise%20en%20place%20du%20raid.png)
 
