@@ -1,0 +1,70 @@
+######################################################################################################
+#                                                                                                    #
+#   CrÃ©ation USER automatiquement avec fichier (avec suppression protection contre la suppression)   #
+#                                                                                                    #
+######################################################################################################
+
+$FilePath = [System.IO.Path]::GetDirectoryName($MyInvocation.MyCommand.Definition)
+
+### Parametre(s) Ã  modifier
+
+$File = "C:\Users\Administrator\Downloads\crea_user.csv"
+
+### Main program
+
+Clear-Host
+If (-not(Get-Module -Name activedirectory))
+{
+    Import-Module activedirectory
+}
+# Import du fichier CSV avec un skip pour ne pas prendre en compte le header
+$Users = Import-Csv -Path $File -Delimiter "," -Header "FirstName","LastName","Departement","Service","Title","Telephone_portable" | Select-Object -Skip 1
+$ADUsers = Get-ADUser -Filter * -Properties *
+$count = 1
+# Boucle foreach, qui cycle tous les utilisateurs à ajouter 
+Foreach ($User in $Users)
+{
+    Write-Progress -Activity "CrÃ©ation des utilisateurs dans l'OU" -Status "%effectuÃ©" -PercentComplete ($Count/$Users.Length*100) # Affichage du barre de chargement
+    $Name              = "$($User.LastName) $($User.FirstName)"
+    $DisplayName       = "$($User.LastName) $($User.FirstName)"
+    $SamAccountName    = $($User.FirstName.substring(0,1).tolower()) +"."+ $($User.LastName.ToLower())
+    $UserPrincipalName = (($User.FirstName.substring(0,1).tolower() + $User.LastName.ToLower()) + "@" + (Get-ADDomain).Forest)
+    $GivenName         = $User.FirstName
+    $Surname           = $User.LastName
+    $OfficePhone       = $User.Telephone_portable
+    $EmailAddress      = $UserPrincipalName
+    $Company           = "BillU"
+    $Department        = "$($User.Departement)"
+    $Title             = "$($User.Title)"
+    
+    If ($User.Departement -ne "-")
+    {
+
+     $Path              ="ou=$department,ou=01-PARIS20,ou=PARIS,ou=France,dc=billu,dc=lan"
+      }
+    Else
+    {
+     $Path              = "cn=Users,dc=billu,dc=lan" # Si pas de département alors se retrouve dans le coneteneur Users de base de l'AD 
+     }
+     If (($ADUsers | Where {$_.SamAccountName -eq $SamAccountName}) -eq $null)
+     {
+        New-ADUser -Name $Name -DisplayName $DisplayName -SamAccountName $SamAccountName -UserPrincipalName $UserPrincipalName `
+        -GivenName $GivenName -Surname $Surname -OfficePhone $OfficePhone -EmailAddress $EmailAddress `
+        -Path $Path -AccountPassword (ConvertTo-SecureString -AsPlainText Azerty1* -Force) -Enabled $True `
+        -OtherAttributes @{Company = $Company;Department = $Department;Title = $Title} -ChangePasswordAtLogon $True
+        
+        Write-Host "CrÃ©ation du USER $SamAccountName" -ForegroundColor Green # confirmation de la création de l'utilsiateur  
+        
+   }
+   Else
+   {
+        Write-Host "Le USER $SamAccountName existe dÃ©jÃ " -ForegroundColor Black -BackgroundColor Yellow
+      
+    }
+    $Count++
+    sleep -Milliseconds 100
+    
+  
+     
+   
+}
