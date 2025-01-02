@@ -66,7 +66,7 @@ Par sprint :
       1. Fond d'écran obligatoire 
       2. Mappage de lecteurs
       3. Gestion de l'alimentation
-      4. Déploiement de logiciels telles que firefox
+      4. Déploiement de logiciels telles que Firefox
 
 
 
