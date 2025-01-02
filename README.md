@@ -22,7 +22,7 @@ Des personnels extérieurs travaillent ponctuellement ou à temps plein avec cer
 | S03  |  Christophe | Erwan  | Sam | Antoine  |
 |  S04 |  Sam | Antoine  | Erwan  | Christophe  |
 |  S05 |  Antoine |  Christophe |  Erwan |   |
-| S06  |   |   |   |   |
+| S06  |  Erwan |  Antoine |  Christophe |   |
 | S07  |   |   |   |   |
 |  S08 |   |   |   |   |
 |  S09 |   |   |   |   |
@@ -36,71 +36,64 @@ Par sprint :
 
 1. Faire une proposition d'objectif par sprint pour l'ensemble de la formation
    
-   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/980f2ce906fb85a4b45f7f7f81248ef34d80e733/Resources/Planning.png)
-3. Établir un schéma réseau prévisionnel de l'infrastructure
+   
+2. Établir un schéma réseau prévisionnel de l'infrastructure
 
-   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/980f2ce906fb85a4b45f7f7f81248ef34d80e733/Resources/Sch%C3%A9ma%20provisoire.png)
 
 # S02
 
-Création d'un domaine AD sur un serveur Windows Server 2022 en GUI avec les rôles AD-DC et DHCP et DNS et une replication du role AD-DC sur un serveur Windows Server 2022 Core.
+1. Création d'un domaine AD sur un serveur Windows Server 2022 en GUI avec les rôles AD-DC et DHCP et DNS et une replication du role AD-DC sur un serveur Windows Server 2022 Core.
 
-   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/980f2ce906fb85a4b45f7f7f81248ef34d80e733/Resources/s02/capture_install_adds_role.png)
-
-   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/980f2ce906fb85a4b45f7f7f81248ef34d80e733/Resources/s02/adds_config_path.png)
-
-   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/980f2ce906fb85a4b45f7f7f81248ef34d80e733/Resources/s02/S02%20WinCORE%2004%20final.png)
-
-   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/980f2ce906fb85a4b45f7f7f81248ef34d80e733/Resources/s02/S02%20WinCORE%2003%20Change%20Domain.png)
+  
     
-Creation d'une arborescense AD avec une creation d'OU et creation des groupes avec une convention de nommage.
+2. Creation d'une arborescense AD avec une creation d'OU et creation des groupes avec une convention de nommage.
 
-   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/bf9d42732558b59a202e69264a42636857a29261/Resources/s02/Capture%20d'%C3%A9cran%202024-12-19%20094815.png)
 
-Integration des utilisateurs a l'AD-DC
+3. Integration des utilisateurs a l'AD-DC
 
-   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/a4670ae764c8ae57799fd7569fe3f41c06817a33/Resources/s02/Capture%20d'%C3%A9cran%202024-12-19%20095726.png)
-
+  
    
 # S03
 
-Creation de GPO de securité et de GPO standard.
+1. Création de GPO de securité
+      1. Politique de mot de passe
+      2. Blocage complet ou partiel au panneau de configuration
+      3. Ecran de veille avec mot de passe en sortie
+      4. Limitation des tentatives d'élévation de prilèges
+      5. Politique de sécurité PowerShell
 
-   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/a4670ae764c8ae57799fd7569fe3f41c06817a33/Resources/GPO%20politique%20des%20MDP.png)
+2. Création de GPO Standard
+      1. Fond d'écran obligatoire 
+      2. Mappage de lecteurs
+      3. Gestion de l'alimentation
+      4. Déploiement de logiciels telles que firefox
 
-   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/a4670ae764c8ae57799fd7569fe3f41c06817a33/Resources/GPO%20s03-2.1.png)
 
 
-Mise en place d'un serveur GLPI 
+3. Mise en place d'un serveur Debian pour la gestion du parc
+      1. Installation du logiciel GLPI 
+      2. Synchonisation AD
+      3. Inclusion des utilisateurs au GLPI
+      4. Gestion des incidents, mise en place du ticketing
+      5. Accés et gestion à partir d'un client 
 
-   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/6d0d745b8f9d2cfe4362ade93df1c498701cb16c/Resources/S03/Capture%20d'%C3%A9cran%202024-12-19%20100834.png)
 
    
 # S04
 
-Creation d'un GPO pour la gestion de la télémetrie.
+1. Creation de GPO pour la gestion de la télémetrie.
 
-   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/afbcb88fe08def78daa3a28f4faf3df569055974/S04/Capture%20d'%C3%A9cran%202024-12-10%20155437.png)
+2. Configuration du Firewall PFSense et mise en place de regles 
+3. Remplissage des Summary sur l'ensemble des machines virtuelle 
 
-   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/a78b23284170ab26f6e7fc7748a338756f101f09/S04/Capture%20d'%C3%A9cran%202024-12-10%20155446.png)
-
-Configuration du Firewall PFSense et mise en place de regles 
-
-   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/a78b23284170ab26f6e7fc7748a338756f101f09/S04/Capture%20d'%C3%A9cran%202024-12-12%20180335.png)
-
-   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/a78b23284170ab26f6e7fc7748a338756f101f09/S04/Capture%20d'%C3%A9cran%202024-12-12%20180348.png)
-
-   
 # S05
 
-Creation d'un serveur windows pour la gestion des sauvegardes en RAID 1 et des Dossiers pratages 
+1. Creation d'un serveur windows pour la gestion des sauvegardes en RAID 1
+2. Mise en places des dossiers de partages.
+      1. un dossier individuel nommé I
+      2. un dossier de service nommé J
+      3. un dossier de département nommé K 
 
-![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/4f3236203f9aa6ff0d278af932faaa275fd6ff66/S05/Mise%20en%20place%20du%20raid.png)
+# S06
 
-![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/4f3236203f9aa6ff0d278af932faaa275fd6ff66/S05/Mise%20en%20place%20des%20disques.png)
 
-![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/4f3236203f9aa6ff0d278af932faaa275fd6ff66/S05/Raid%20en%20formatage.png)
-
-![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/4f3236203f9aa6ff0d278af932faaa275fd6ff66/S05/Raid%20reussi.png)
-
-![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/75b6f1ddfe7216985c15eb1441bedf09c67d88a2/S05/Capture%20d'%C3%A9cran%202024-12-19%20103326.png)
