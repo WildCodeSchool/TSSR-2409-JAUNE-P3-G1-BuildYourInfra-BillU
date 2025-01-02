@@ -45,7 +45,7 @@ Environment de test sur Proxmox en VM
 - Type de GPO: Utilisateur
 - Nommage de la GPO: Usr-Glo-1224-D-PanConf
 - Chemin d'accès du paramétrage de la GPO:
-   - Users Configuration **>** Administrative Templates Policy definitions -> Control Panel -> Prohibit access to control Panel and PC settings
+   - Users Configuration → Administrative Templates Policy definitions → Control Panel → Prohibit access to control Panel and PC settings
 - Paramètres de la GPO : 
    - Cocher la case enabled
    - Ajouter les commentaires 
