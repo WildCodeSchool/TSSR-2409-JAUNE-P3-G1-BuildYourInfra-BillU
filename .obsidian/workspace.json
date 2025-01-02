@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S04/S04_INSTALL.md",
+                "file": "S01/S01_Install.MD",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "S04_INSTALL"
+              "title": "S01_Install"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "S04/S04_INSTALL.md",
+                "file": "S01/S01_Install.MD",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour S04_INSTALL"
+              "title": "Rétrolien pour S01_Install"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "S04/S04_INSTALL.md",
+                "file": "S01/S01_Install.MD",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de S04_INSTALL"
+              "title": "Liens sortants de S01_Install"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "S04/S04_INSTALL.md"
+                "file": "S01/S01_Install.MD"
               },
               "icon": "lucide-list",
-              "title": "Plan de S04_INSTALL"
+              "title": "Plan de S01_Install"
             }
           }
         ]
@@ -165,10 +165,11 @@
   },
   "active": "9c56ce6e7b9e9984",
   "lastOpenFiles": [
-    "S05/s05_INSTALL.md",
     "S04/S04_INSTALL.md",
+    "S03/S03_USER_GUIDE.md",
     "S03/S03_INSTALL.md",
     "S02/S02_INSTALL.md",
+    "S05/s05_INSTALL.md",
     "S02/S02_USER_GUIDE.md",
     "S01/S01_Install.MD",
     "README.md",
