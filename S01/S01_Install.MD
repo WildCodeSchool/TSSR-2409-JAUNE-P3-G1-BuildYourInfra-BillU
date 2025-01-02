@@ -1,20 +1,20 @@
-# Planificiation & Structuration d'une nouvelle infrastructure réseau
+# Planification & Structuration d'une nouvelle infrastructure réseau
 
 ## Prérequis techniques
 
 - Comprendre et exploiter une infrastructure réseau
-- Maitriser le découpage réseau 
+- Maîtriser le découpage réseau 
 - Connaissance GNS3/Packet Tracer
 
 
-## Plannification d'une infrastructure réseau 
+## Planification d'une infrastructure réseau 
 
 ### Nomenclature 
 
-Afin d'avoir une uniformisation de l'ensemble du parc informatique et de ses différents éléments physiques et non-physisques. Dans le cadre, de BillU vous trouverez dans le tableau les différentes correspondances. 
+Afin d'avoir une uniformisation de l'ensemble du parc informatique et de ses différents éléments physiques et non-physiques. Dans le cadre, de BillU vous trouverez dans le tableau les différentes correspondances. 
 
 Chaque matériel respectera la forme suivante Entreprise(3)-Ville(3)-site(2)-département(3)-type(3)-ID(5)
-Aujourd'hui billu compte 1 seul site et donc le préfixe des 8 premiers charactères resteras le même. Quant à l'ID il est formé de 3 premiers chiffres par ordre d'attribution et des 2 derniers chiffres de l'année de mise en service (ex: 24 pour 2024). 
+Aujourd'hui billu compte 1 seul site et donc le préfixe des 8 premiers caractères resteras le même. Quant à l'ID il est formé de 3 premiers chiffres par ordre d'attribution et des 2 derniers chiffres de l'année de mise en service (ex: 24 pour 2024). 
 
 Exemple: 
 
