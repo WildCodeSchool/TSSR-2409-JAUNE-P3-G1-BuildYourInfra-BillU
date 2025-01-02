@@ -56,5 +56,5 @@ Une fois avoir validé votre schéma comme solution possible vous pouvez créer 
 
 À l'aide d'un logiciel d'émulation de réseau comme GNS3 ou Packet Tracer, vous pouvez mettre en place votre architecture réseau, et vérifier son bon fonctionnement avant de la mettre en place en production.
 
-![../Ressources/S01/schema_reseau_pt.png]
+![](../Ressources/S01/schema_reseau_pt.png)
 
