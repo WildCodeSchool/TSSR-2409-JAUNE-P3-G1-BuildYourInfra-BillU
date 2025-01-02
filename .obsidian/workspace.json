@@ -93,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "S01/S01_Install.MD",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour S01_Install"
+              "title": "Rétroliens"
             }
           },
           {
@@ -112,12 +111,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "S01/S01_Install.MD",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de S01_Install"
+              "title": "Liens sortants"
             }
           },
           {
@@ -139,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "S01/S01_Install.MD"
+                "file": "Sans titre.md"
               },
               "icon": "lucide-list",
-              "title": "Plan de S01_Install"
+              "title": "Plan de Sans titre"
             }
           }
         ]
@@ -159,13 +157,15 @@
       "canvas:Créer une nouvelle toile": false,
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false
+      "command-palette:Ouvrir la palette de commandes": false,
+      "github-sync:Sync with Remote": false
     }
   },
-  "active": "9c56ce6e7b9e9984",
+  "active": "6ecea6722a4500e0",
   "lastOpenFiles": [
-    "Sans titre.canvas",
     "S01/S01_Install.MD",
+    "Sans titre.md",
+    "Sans titre.canvas",
     "Ressources/S05/Logon Hours.png",
     "Ressources/S05/Mise en place des disques.png",
     "Ressources/S05/Mise en place du raid.png",
