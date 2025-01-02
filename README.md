@@ -72,23 +72,23 @@ Par sprint :
 
 3. Mise en place d'un serveur Debian pour la gestion du parc
       1. Installation du logiciel GLPI 
-      2. Synchonisation AD
+      2. Synchronisation AD
       3. Inclusion des utilisateurs au GLPI
       4. Gestion des incidents, mise en place du ticketing
-      5. Accés et gestion à partir d'un client 
+      5. Accès et gestion à partir d'un client 
 
 
    
 # S04
 
-1. Creation de GPO pour la gestion de la télémetrie.
+1. Création de GPO pour la gestion de la télémétrie.
 
-2. Configuration du Firewall PFSense et mise en place de regles 
+2. Configuration du Firewall PFSense et mise en place de réglés 
 3. Remplissage des Summary sur l'ensemble des machines virtuelle 
 
 # S05
 
-1. Creation d'un serveur windows pour la gestion des sauvegardes en RAID 1
+1. Création d'un serveur Windows pour la gestion des sauvegardes en RAID 1
 2. Mise en places des dossiers de partages.
       1. un dossier individuel nommé I
       2. un dossier de service nommé J
