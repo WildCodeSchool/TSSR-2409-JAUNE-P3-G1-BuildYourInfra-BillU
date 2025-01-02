@@ -46,15 +46,23 @@ Environnent de test sur Proxmox en VM
 - Nommage de la GPO: Usr-Glo-1224-D-PanConf
 - Chemin d'accès du paramétrage de la GPO:
    - Users Configuration → Administrative Templates Policy definitions → Control Panel → Prohibit access to control Panel and PC settings
-- Paramètres de la GPO : 
+- Paramètres de la GPO :
    - Cocher la case enabled
    - Ajouter les commentaires 
    - Valider
+
+  ![](../Ressources/S03/00GPO-ParamPanConf.png)
+     
 - GPO status: enabled
+    
+  ![](../Ressources/S03/00GPO-PanConfStatus.png)
+
 - Groupes de filtrage:
    - Authenticated Users
    - GrpGlobal
 - OU de lien de la GPO: 01-PARIS20
+  
+  ![](../Ressources/S03/00GPO-PanConfScope.png)
 
 #### GPO: Demande du mot de passe de l'utilisateur pour sortir de l'écran de veille
 - Type de GPO: Utilisateur
