@@ -25,7 +25,7 @@ Environment de test sur Proxmox en VM
 * IP DNS           : 172.15.255.254 
 
 
-## Configuration des GPO ( Group Policy Object )
+## 2 Configuration des GPO ( Group Policy Object )
  - La configuration des GPOs est effectué depuis l'outil "Group Policy Management", accessible depuis l'onglet Tools de Server Manager
  
 ### Configuration des GPOs de sécurité
