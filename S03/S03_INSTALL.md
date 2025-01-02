@@ -73,7 +73,7 @@ Environnent de test sur Proxmox en VM
   - Enabled screen saver → enabled
   - Password protect the screen saver -> enabled
   - Load a specific theme → enabled
-
+  
   ![](../Ressources/S03/01GPO-ParamEcrVeil.png)
   
 - GPO status: Computer configuration settings disabled
@@ -95,7 +95,13 @@ Environnent de test sur Proxmox en VM
 - Paramètres de la GPO: 
   - User Account Control: Behavior of the elevation prompt for administrators in Admin Approval Mode → Prompt for credentials
   - User Account Control: Behavior of the elevation prompt for standard users → Prompt for credentials
+  
+  ![](../Ressources/S03/02GPO-ParamLimPriv.png)
+  
 - GPO status: User configuration settings disabled
+  
+  ![](../Ressources/S03/02GPO-LimPrivStatus.png)
+  
 - Groupes de filtrage:
    - GrpOrdCRP
    - GrpOrdDSI
@@ -103,11 +109,26 @@ Environnent de test sur Proxmox en VM
    - GrpOrdJUR
 - OU de lien de la GPO: Billu_Computers
 
+  ![](../Ressources/S03/02GPO-LimPrivScope.png)
+
 #### GPO: Blocage de l'accès à Powershell
 - Type de GPO: Utilisateur
 - Nommage de la GPO: Usr-Glo-1224-D-SecuPS
-- Chemin d'accès du paramétrage de la GPO: 
-- Paramètres de la GPO: 
+- Chemin d'accès du paramétrage de la GPO:
+  - 
+- Paramètres de la GPO:
+  
+    ![](../Ressources/S03/03GPO-ParamSecuPS.png)
+  
+- GPO status: 
+  
+  ![](../Ressources/S03/03GPO-SecuPSStatus.png)
+  
+- Groupes de filtrage:
+   - 
+- OU de lien de la GPO: 
+
+  ![](../Ressources/S03/03GPO-SecuPSScope.png)
 
 ### Configuration des GPOs standardisation des comptes utilisateurs 
 
