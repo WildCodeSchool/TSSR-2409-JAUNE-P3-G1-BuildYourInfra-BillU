@@ -149,7 +149,7 @@ Environment de test sur Proxmox en VM
    - 
 - OU de lien de la GPO:
 
-## Installation et configuration d'un serveur de gestion de parc: 
+## 3 Installation et configuration d'un serveur de gestion de parc: 
 
 
 Prérequis techniques
