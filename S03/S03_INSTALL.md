@@ -2,15 +2,15 @@
  
 ## 1 Prérequis Active Directory 
 
-- Avoir un serveur Windows 2022 en graphique, sur lequel les roles suivant sont installés:
+- Avoir un serveur Windows 2022 en graphique, sur lequel les rôles suivant sont installés:
   - Active Directory Domaine Services 
   - DNS 
   - DHCP
-Le serveur à sa création a été promut comme controleur de domaine
+Le serveur à sa création a été promut comme contrôleur de domaine
 
 ### Prérequis pour Windows serveur 2022
 
-Environment de test sur Proxmox en VM
+Environnent de test sur Proxmox en VM
 
 * Memory      4 GB
     
@@ -35,7 +35,7 @@ Environment de test sur Proxmox en VM
 - Nommage de la GPO: 
 - Chemin d'accès du paramétrage de la GPO: 
   - 
-- Pamètres de la GPO:
+- Paramètres de la GPO:
 - GPO status: 
 - Groupes de filtrage:
    - 
