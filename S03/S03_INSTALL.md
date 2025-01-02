@@ -68,25 +68,33 @@ Environnent de test sur Proxmox en VM
 - Type de GPO: Utilisateur
 - Nommage de la GPO: Usr-Glo-1224-A-EcrVeil
 - Chemin d'accès du paramétrage de la GPO: 
-  - Users Configuration -> Administrative Templates Policy definitions -> Control Panel -> Personalization
+  - Users Configuration → Administrative Templates Policy definitions → Control Panel → Personalization
 - Pamètres de la GPO:
-  - Enabled screen saver -> enabled
+  - Enabled screen saver → enabled
   - Password protect the screen saver -> enabled
-  - Load a specific theme -> enabled 
+  - Load a specific theme → enabled
+
+  ![](../Ressources/S03/01GPO-ParamEcrVeil.png)
+  
 - GPO status: Computer configuration settings disabled
+  
+  ![](../Ressources/S03/01GPO-EcrVeilStatus.png)  
+  
 - Groupes de filtrage:
    - Authenticated Users
    - GrpGlobal
 - OU de lien de la GPO: 01-PARIS20
-
+  
+  ![](../Ressources/S03/01GPO-EcrVeilScope.png)   
+  
 #### GPO: Limitation des tentatives d'élévation de privilèges
 - Type de GPO: Computer
 - Nommage de la GPO: Ord-Glo-1224-D-LimPriv
 - Chemin d'accès du paramétrage de la GPO:
-  - Computer Configuration -> Policies -> Windows Settings -> Security Settings -> Local Policy -> Security Options
+  - Computer Configuration → Policies → Windows Settings → Security Settings → Local Policy → Security Options
 - Paramètres de la GPO: 
-  - User Account Control: Behavior of the elevation prompt for administrators in Admin Approval Mode -> Prompt for credentials
-  - User Account Control: Behavior of the elevation prompt for standard users -> Prompt for credentials
+  - User Account Control: Behavior of the elevation prompt for administrators in Admin Approval Mode → Prompt for credentials
+  - User Account Control: Behavior of the elevation prompt for standard users → Prompt for credentials
 - GPO status: User configuration settings disabled
 - Groupes de filtrage:
    - GrpOrdCRP
