@@ -51,7 +51,7 @@ Environment de test sur Proxmox en VM
    - Ajouter les commentaires 
    - Valider
 - GPO status: enabled
-  ![](../Ressources/s03/PanConfStatus.png)
+  ![](../Ressources/s03/00GPO-PanConfStatus.png)
 - Groupes de filtrage:
    - Authenticated Users
    - GrpGlobal
