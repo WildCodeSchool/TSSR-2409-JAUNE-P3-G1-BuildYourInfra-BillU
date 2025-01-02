@@ -42,24 +42,24 @@ Par sprint :
 
 # S02
 
-1. Création d'un domaine AD sur un serveur Windows Server 2022 en GUI avec les rôles AD-DC et DHCP et DNS et une replication du role AD-DC sur un serveur Windows Server 2022 Core.
+1. Création d'un domaine AD sur un serveur Windows Server 2022 en GUI avec les rôles AD-DC et DHCP et DNS et une réplication du rôle AD-DC sur un serveur Windows Server 2022 Core.
 
   
     
-2. Creation d'une arborescense AD avec une creation d'OU et creation des groupes avec une convention de nommage.
+2. Création d'une arborescente AD avec une création d'OU et création des groupes avec une convention de nommage.
 
 
-3. Integration des utilisateurs a l'AD-DC
+3. Intégration des utilisateurs a l'AD-DC
 
   
    
 # S03
 
-1. Création de GPO de securité
+1. Création de GPO de sécurité
       1. Politique de mot de passe
       2. Blocage complet ou partiel au panneau de configuration
       3. Ecran de veille avec mot de passe en sortie
-      4. Limitation des tentatives d'élévation de prilèges
+      4. Limitation des tentatives d'élévation de privilèges
       5. Politique de sécurité PowerShell
 
 2. Création de GPO Standard
