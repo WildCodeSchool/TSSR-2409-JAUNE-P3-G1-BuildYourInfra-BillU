@@ -48,6 +48,37 @@ Vous pouvez créer un ticket via le panneau de gauche pour faire remonter aux se
 
 FAQ : 
 
+### Je n'ai pas accès à ma session depuis mon poste de travail
+
+Plusieurs explications sont possibles: 
+- Votre poste de travail affiche-t-il le bon domaine, en dessous des champs d'identifiants ? Si oui, alors vérifiez vos identifiants de connexion et le mot de passe par défaut lors de votre prochaine tentative.
+Si non, contacter votre Service informatique
+- Vos accès n'ont pas encore été crée
+- Vous avez fait une erreur dans vos identifiants de connexion
+- Vous avez fait plus de 3 tentatives de connexion
+- Le poste de travail à des restrictions vous empêchant de vous connecter
+
+Si le problème persiste, contacter le service informatique.
+
+### Je n'arrive pas à changer mon mot de passe 
+
+Lors d'un changement de mot de passe , lors de la première connexion ou non, vous devez respecter les règles de sécurité vis-à-vis des mots de passe, mises en place par l'entreprise. Par exemple, Billu demande un minimum de 8 caractères pour un mot de passe, et il ne peut être changé que tous les 24 heures.
+Si le problème persiste, contacter le service informatique.
+
+### J'ai les bons identifiants mais on me refuse la connexion
+Des mesures de sécurité peuventvous empêcher de vous connecter même si vous possédez les bons identifiants. En effet, chaque utilisateur dispose d'une plage horaire de connexion de 7h à 20h, si vous essayez de vous connecter en dehors, l'accès vous sera refusé. 
+Votre session peut également être vérouillée suite à de trop nombreuses tentatives de connexion ratées. 
+Il est également possible que le problème vienne du poste de travail en lui-même (cf point 5 question 1).
+Si le problème persiste, contacter le service informatique.
+
+### Je n'arrive pas à accèder à la plateforme de ticketing 
+
+
+
+### J'ai un problème avec un logiciel que faire ? 
+
+
+
 
 
 
