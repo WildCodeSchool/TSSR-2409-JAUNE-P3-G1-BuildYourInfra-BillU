@@ -26,6 +26,7 @@ Environment de test sur Proxmox en VM
 ## 2. Installation Active Directory
 
 2.1 Choisir le serveur cible dans l'interface de Server Manager. 
+
 ![](../Ressources/S02/choix_du_serveur.png)
 
 2.2 Puis, allez dans `Manage` > `Add Roles and Features`
@@ -67,7 +68,7 @@ Environment de test sur Proxmox en VM
 1. Connectez-vous au serveur Windows Core avec un compte administrateur local.
 2. Tapez la commande `SConfig` dans l'invite de commande et appuyez sur Entrée.
 
-    ![Sconfig](../Ressources/S02/S02_WinCORE01_Sconfig.png)
+![Sconfig](../Ressources/S02/S02_WinCORE01_Sconfig.png)
     
 ### Étape 2 : Modifier le nom de l'ordinateur
 
@@ -77,7 +78,7 @@ Environment de test sur Proxmox en VM
 
 3. Redémarrez le serveur lorsqu'on vous le demande.
 
-    ![SS2](../Ressources/S02/WinCORE_computer_name.png)
+![SS2](../Ressources/S02/WinCORE_computer_name.png)
 
 ### Étape 3 : Rejoindre le domaine Active Directory
 
@@ -87,7 +88,7 @@ Environment de test sur Proxmox en VM
 4. Indiquez le nom du domaine et d'un utilisateur autorisé dans le format `billu.lan`.
 5. Saisissez le mot de passe de l'utilisateur lorsque vous y êtes invité.
 
-    ![SS3](../Ressources/S02/WinCORE_Change_Domain.png)
+![SS3](../Ressources/S02/WinCORE_Change_Domain.png)
 
 ### Étape 4 : Finaliser l'intégration
 1. Si on vous propose de changer le nom de l'ordinateur à nouveau, sélectionnez **Non** (puisque cela a déjà été fait).
@@ -98,21 +99,21 @@ Après le redémarrage :
 - Connectez-vous au serveur avec les informations d'identification du domaine.
 - Tapez `SConfig` pour confirmer que le serveur est bien joint au domaine Active Directory.
 
-    ![SS4](../Ressources/S02/WinCORE_final.png)
+![SS4](../Ressources/S02/WinCORE_final.png)
 
 ## Contrôler Windows Server Core depuis Windows Server 2022
 
 - Une fois le serveur Core intégré au domaine, vous pouvez le gérer facilement depuis un serveur Windows Server 2022 avec interface graphique. Il suffit d'utiliser le *Server Manager* pour ajouter le serveur Windows Core à la liste des serveurs. Cliquez Manage > Add Servers
 
-    ![SS5](../Ressources/S02/WinCORE_Windows_server_manager.png) 
+![SS5](../Ressources/S02/WinCORE_Windows_server_manager.png) 
 
 - Cherchez votre serveur sur l'Active Directory
 
-    ![SS6](../Ressources/S02/WinCORE_windows_server_manager_add.png)
+![SS6](../Ressources/S02/WinCORE_windows_server_manager_add.png)
     
 - Votre serveur doit apparaître sur le serveur manager
 
-    ![SS7](../Ressources/S02/WinCORE_windows_server_manager_final.png)
+![SS7](../Ressources/S02/WinCORE_windows_server_manager_final.png)
 
 ## 4. Créer une Unité Organisationnelle et des groupes de sécurité sur Active Directory
 
@@ -120,17 +121,17 @@ Après le redémarrage :
 1. Connectez-vous à un serveur Windows avec l'interface graphique et les outils d'administration Active Directory installés.
 2. Ouvrez l'outil **Active Directory Users and Computers**.
 
-    ![ADUC](../Ressources/S02/OU_et_des_groupes_01.png)
+![ADUC](../Ressources/S02/OU_et_des_groupes_01.png)
 
 ### Étape 2 : Créer une nouvelle Unité Organisationnelle
 1. Dans la console AD.DC, naviguez jusqu'au domaine billu.lan (ou domaine souhaité).
 2. Faites un clic droit sur le domaine et sélectionnez **New > Organizational Unit**.
 
-    ![SS2](../Ressources/S02/New_OU.png)
+![SS2](../Ressources/S02/New_OU.png)
 
 3. Donnez un nom à votre Unité Organisationnelle et cliquez sur **OK**.
 
-    ![SS3](../Ressources/S02/Nommage_OU.png)
+![SS3](../Ressources/S02/Nommage_OU.png)
 
 4. La nouvelle Unité Organisationnelle apparaît dans la structure Active Directory.
 
@@ -153,7 +154,7 @@ Après le redémarrage :
 1. Faites un clic droit sur le groupe nouvellement créé et sélectionnez **Properties**.
 2. Allez dans l’onglet **Members** et cliquez sur **Add**.
 
-    ![SS6](../Ressources/S02/New_group.png)
+![SS6](../Ressources/S02/New_group.png)
 
 3. Saisissez les noms des utilisateurs ou groupes que vous souhaitez ajouter, puis cliquez sur **Check Names** pour valider.
 4. Une fois les membres ajoutés, cliquez sur **OK** pour sauvegarder.
@@ -163,7 +164,7 @@ Après le redémarrage :
 - Retournez à l’onglet **Members** dans les propriétés du groupe pour confirmer que les membres ont été correctement ajoutés.
 - Naviguez dans l’Unité Organisationnelle pour vérifier que le groupe et ses membres sont présents.
 
-    ![SS8](../Ressources/S02/User.png)
+![SS8](../Ressources/S02/User.png)
 
 
    
