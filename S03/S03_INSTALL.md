@@ -30,17 +30,6 @@ Environnent de test sur Proxmox en VM
  
 ### Configuration des GPOs de sécurité
 
-#### GPO: Politique de gestion des mots de passes:
-- Type de GPO: 
-- Nommage de la GPO: 
-- Chemin d'accès du paramétrage de la GPO: 
-  - 
-- Paramètres de la GPO:
-- GPO status: 
-- Groupes de filtrage:
-   - 
-- OU de lien de la GPO:
-
 #### GPO: Blocage de l'accès au panneau de configuration
 - Type de GPO: Utilisateur
 - Nommage de la GPO: Usr-Glo-1224-D-PanConf
