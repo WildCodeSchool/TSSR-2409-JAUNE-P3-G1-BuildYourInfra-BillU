@@ -115,34 +115,47 @@ Environnent de test sur Proxmox en VM
 - Type de GPO: Utilisateur
 - Nommage de la GPO: Usr-Glo-1224-D-SecuPS
 - Chemin d'accès du paramétrage de la GPO:
-  - 
+  - Users Configuration → Policies → Windows Settings → Security Settings → Software Restriction Policies → Additional Rules
 - Paramètres de la GPO:
+  - Pour chaque versions de Powershell il est necessaire de créer une nouvelle règle en précisant le chemin d'accès au logiciel. ce dernier se situ dans: C:\Windows\SysWOW64\WindowsPowerShell\...
   
     ![](../Ressources/S03/03GPO-ParamSecuPS.png)
   
-- GPO status: 
+- GPO status: Computer configuration settings disabled
   
   ![](../Ressources/S03/03GPO-SecuPSStatus.png)
   
 - Groupes de filtrage:
-   - 
-- OU de lien de la GPO: 
+   - Authenticated Users
+   - GrpGlobal
+- OU de lien de la GPO: 01-PARIS20
 
   ![](../Ressources/S03/03GPO-SecuPSScope.png)
 
 ### Configuration des GPOs standardisation des comptes utilisateurs 
 
 #### GPO: Uniformisation du fond d'écrans des comptes utilisateurs
-- Type de GPO: 
-- Nommage de la GPO: 
+- Type de GPO: Utilisateur
+- Nommage de la GPO: Usr-Glo-1224-A-FondEcran
 - Chemin d'accès du paramétrage de la GPO: 
-  - 
+  - Users Configuration → Policies → Administrative Templates Policy definitions → Desktop → Desktop → Desktop Wallpaper
 - Pamètres de la GPO:
-- GPO status: 
+  - Cocher enabled
+  - Préciser le chemin complet du fichier utilisé comme fond d'écran. Ce fichier se doit d'être placé dans un dossier partagé avec un paramétrage de sécurité qui permet la lecture à tous les utilisateurs
+  
+   ![](../Ressources/S03/04GPO-ParamFondEcr.png)
+  
+- GPO status: Enabled
+  
+  ![](../Ressources/S03/04GPO-FondEcrStatus.png)
+  
 - Groupes de filtrage:
-   - 
-- OU de lien de la GPO:
-
+   - Authenticated Users
+   - GrpGlobal
+- OU de lien de la GPO: 01-PARIS20
+  
+  ![](../Ressources/S03/04GPO-FondEcrScope.png)
+  
 #### GPO: Mappage des lecteurs
 - Type de GPO: 
 - Nommage de la GPO: 
