@@ -177,6 +177,8 @@ Environnent de test sur Proxmox en VM
 - Groupes de filtrage:
    - 
 - OU de lien de la GPO:
+
+  
 #### GPO: Gestion de l'alimentation
 - Type de GPO: 
 - Nommage de la GPO: 
@@ -189,15 +191,17 @@ Environnent de test sur Proxmox en VM
 - OU de lien de la GPO:
 
 #### GPO: Gestion de la mise en veille des postes utilisateurs en cas d'inactivité
-- Type de GPO: 
-- Nommage de la GPO: 
+- Type de GPO: Utilisateur
+- Nommage de la GPO: Usr-Glo-1224-A-Misveil
 - Chemin d'accès du paramétrage de la GPO: 
-  - 
+  - Users Configuration → Administrative Templates Policy definitions → Control Panel → Personalization → Screen saver timeout
 - Pamètres de la GPO:
-- GPO status: 
+  - Number of seconds to wait to enable the screen saver
+- GPO status: Computer configuration settings disabled
 - Groupes de filtrage:
-   - 
-- OU de lien de la GPO:
+   - Authenticated Users
+   - GrpGlobal
+- OU de lien de la GPO: 01-PARIS20
 
 ## 3 Installation et configuration d'un serveur de gestion de parc: 
 
