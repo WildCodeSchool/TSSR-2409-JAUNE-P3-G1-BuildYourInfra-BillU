@@ -156,16 +156,17 @@ Environnent de test sur Proxmox en VM
   
   ![](../Ressources/S03/04GPO-FondEcrScope.png)
   
-#### GPO: Mappage des lecteurs
-- Type de GPO: 
-- Nommage de la GPO: 
+#### GPO: Mappage des lecteurs ( ex: Département CRP )
+- Type de GPO: Utilisateur
+- Nommage de la GPO:  Usr-CRP-1224-A-MapDrivDep
 - Chemin d'accès du paramétrage de la GPO: 
-  - 
+  - Users Configuration → Preferences → Windows Settings → Drive Maps → Drive Map (Drive :K)
 - Pamètres de la GPO:
-- GPO status: 
+  ![](../captureparamètre
+- GPO status: Enabled
 - Groupes de filtrage:
-   - 
-- OU de lien de la GPO:
+   - Authenticated Users
+- OU de lien de la GPO: Communication et Relations Publiques   
 
 #### GPO: Déploiement des logiciels
 - Type de GPO: 
