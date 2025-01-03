@@ -5,8 +5,9 @@
 
 1. Mise en place de réglés de pare-feu WAN, LAN, DMZ
 
-    1.1  Apres l'installation du serveur pfsense
+    1.1  Apres l'installation du serveur pfsense \
     2.1 Entrer l'option 2 pour configurer l'interfaces IP
+
     ![](../Ressources/S04/Pfsenseserveur.png)
 
     3.1 Sur une session client ouvrer une page d'un navigateur internet et dans la barre de recherche taper l'adresse IP LAN
@@ -44,8 +45,18 @@
 
  2. Gestion de la télémétrie par GPO 
 
-![](../Ressources/S04/GPO%20T%C3%A9lemetry.png)
-![](../Ressources/S04/GPO%20t%C3%A9lemetry%202.png)
-![]()
+    1.2 Creation de la GPO
+
+    ![](../Ressources/S04/ArboressenceGPOtelemetry.png)
+
+    2.2 Chemin pour gestion de la GPO
+
+    ![](../Ressources/S04/CheminGPOtelemetry.png)
+
+    3.2 Parametre a Enabled
+
+    ![](../Ressources/S04/GPO%20T%C3%A9lemetry.png)
+    ![](../Ressources/S04/GPO%20t%C3%A9lemetry%202.png)
+
 
 
