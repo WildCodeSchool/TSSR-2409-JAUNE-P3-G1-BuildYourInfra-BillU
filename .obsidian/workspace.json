@@ -11,14 +11,12 @@
             "id": "9c56ce6e7b9e9984",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "S04/S04_INSTALL.md",
-                "mode": "source",
-                "source": false
+                "file": "Ressources/S04/GPO Télemetry.png"
               },
-              "icon": "lucide-file",
-              "title": "S04_INSTALL"
+              "icon": "lucide-image",
+              "title": "GPO Télemetry"
             }
           }
         ]
@@ -165,24 +163,28 @@
   },
   "active": "9c56ce6e7b9e9984",
   "lastOpenFiles": [
+    "Ressources/S04/Pfsensebarredetache.png",
+    "Ressources/S04/Pfsenseeditrule2.png",
+    "Ressources/S04/Pfsenseeditrule1.png",
+    "S05/s05_INSTALL.md",
+    "S05",
+    "Ressources/S04/pfsenseaddrule.png",
+    "S04/S04_INSTALL.md",
+    "S04_INSTALL.md",
+    "S04/pfsenseaddrule.png",
+    "pfsenseaddrule.png",
+    "Ressources/S04/S05/s05_INSTALL.md",
+    "Ressources/S04/S05",
+    "Ressources/S04/réglesPfsenseWAN.png",
+    "Ressources/S04/RéglesPfsenseLAN.png",
     "Ressources/S04/Pfsenseecrandelogin.png",
     "Ressources/S04/Pfsensedansfirefox.png",
     "Ressources/S04/Pfsensepagesd'accueil.png",
-    "Ressources/S04/Pfsenserules.png",
-    "Ressources/S04/Pfsenseserveur.png",
-    "Ressources/S04/Pfsense serveur.png",
-    "Ressources/S04/Pfsense rules.png",
-    "Ressources/S04/Pfsense pages d'accueil.png",
-    "Ressources/S03/ticket_2.png",
-    "Ressources/S03/ticket_1.png",
-    "Ressources/S03/premier_login.png",
     "S01/S01_Install.MD",
-    "S04/S04_INSTALL.md",
     "README.md",
     "S02/S02_INSTALL.md",
     "S03/S03_USER_GUIDE.md",
     "S03/S03_INSTALL.md",
-    "S05/s05_INSTALL.md",
     "S02/S02_USER_GUIDE.md",
     "Sans titre.md",
     "Sans titre.canvas",
