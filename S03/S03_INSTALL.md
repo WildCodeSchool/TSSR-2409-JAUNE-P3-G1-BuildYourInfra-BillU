@@ -168,28 +168,30 @@ Environnent de test sur Proxmox en VM
    - Authenticated Users
 - OU de lien de la GPO: Communication et Relations Publiques   
 
-#### GPO: Déploiement des logiciels
-- Type de GPO: 
-- Nommage de la GPO: 
+#### GPO: Déploiement des logiciels (ex Firefox)
+- Type de GPO: Ordinateur
+- Nommage de la GPO: Ord-Glo-1224-A-DepLogFir
 - Chemin d'accès du paramétrage de la GPO: 
-  - 
+  - Computer Configuration → Policies → Software Settings → Software installation 
 - Pamètres de la GPO:
-- GPO status: 
+  ![](../firefox)
+- GPO status: Enabled
 - Groupes de filtrage:
-   - 
-- OU de lien de la GPO:
+   - GrpOrdTest 
+- OU de lien de la GPO: Billu_Computers
 
   
 #### GPO: Gestion de l'alimentation
-- Type de GPO: 
-- Nommage de la GPO: 
+- Type de GPO: Ordinateur
+- Nommage de la GPO: Ord-Glo-1224-D-GesAlim
 - Chemin d'accès du paramétrage de la GPO: 
-  - 
+  - Computer Configuration → Policies → Administrative Templates → System → Power Management
 - Pamètres de la GPO:
-- GPO status: 
+  ![](../power)
+- GPO status: Enabled
 - Groupes de filtrage:
-   - 
-- OU de lien de la GPO:
+   - GrpOrdTest
+- OU de lien de la GPO: Billu_Computers
 
 #### GPO: Gestion de la mise en veille des postes utilisateurs en cas d'inactivité
 - Type de GPO: Utilisateur
