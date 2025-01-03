@@ -6,9 +6,9 @@ Pour vous connecter à votre session personnelle vous devrez remplir les informa
 - Identifiant de connexion en miniscule → première lettre de votre prénom + point + votre nom de famille 
 - Mot de passe par défaut pour votre première connexion `Azerty1*`
 
-Exemple pour Jean Dupont:
+Exemple pour Antoine Dubois:
 
-Identifiant de connexion → `j.dupont`
+Identifiant de connexion → `a.dubois`
 
 Mot de passe par défaut → `Azerty1*`
 
