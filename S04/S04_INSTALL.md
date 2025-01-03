@@ -54,7 +54,7 @@
 
     ![](../Ressources/S04/CheminGPOtelemetry.png)
 
-    3.2 Paramètre a Enabled
+    3.2 Paramètre à Enabled
 
     ![](../Ressources/S04/GPO%20T%C3%A9lemetry.png)
     ![](../Ressources/S04/GPO%20t%C3%A9lemetry%202.png)

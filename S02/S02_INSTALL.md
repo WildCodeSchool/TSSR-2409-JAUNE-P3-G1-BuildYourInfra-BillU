@@ -25,42 +25,40 @@ Environnent de test sur Proxmox en VM
 
 ## 2. Installation Active Directory
 
-Choisir le serveur cible dans l'interface de Server Manager. 
+2.1 Choisir le serveur cible dans l'interface de Server Manager. 
+![](../Ressources/S02/choix_du_serveur.png)
 
-![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/3ce96eab545432bb39b253f41d960e9c5f3856f6/Resources/choix%20du%20serveur.png)
+2.2 Puis, allez dans `Manage` > `Add Roles and Festures`
 
-Puis, allez dans `Manage` > `Add Roles and Festures`
+![](../Ressources/S02/Manage_add_roles.png)
 
-![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/3ce96eab545432bb39b253f41d960e9c5f3856f6/Resources/Manage%20add%20roles.png)
+2.3 Choisir les rôles à installer
 
-   
-   Choisir le serveur
+![](../Ressources/S02/capture_install_adds_role.png)
 
-   ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/3ce96eab545432bb39b253f41d960e9c5f3856f6/Resources/choix%20des%20roles.png)
 
-   Choisir les rôles à installer
+2.4 Vérifier l’installation de la Feature `Group Policy Management`
    
-   sceen role 
+![](../Ressources/S02/capture_install_adds_feature.png)
+   
+2.5 Redémarrerez puis commencez la configuration post installation. 
+   
+   
+2.6 Donnez un nom à votre nouveau domaine Active Directory.
 
-   Vérifier l’installation de la Feature `Group Policy Management`
+   ![](../Ressources/S02/Nommage_AD.DC.png)
    
-   Screenshots
+2.7 Choisissiez le niveau fonctionnel le plus élevé pour votre domaine et votre forêt
+
+   ![](../Ressources/S02/adds_config_niv_win.png)
    
-   Redémarrerez puis commencez la configuration post installation. 
-   Screenshots
-   
-   Donnez un nom à votre nouveau domaine Active Directory.
-   Screenshots
-   
-   Choisissiez le niveau fonctionnel le plus élevé pour votre domaine et votre forêt
-   Screen
-   
-   Laissez les chemins par défauts pour les dossiers `NTDS` & `SYSVOL`
-   Screen
+2.8 Laissez les chemins par défauts pour les dossiers `NTDS` & `SYSVOL`
+
+   ![](../Ressources/S02/adds_config_path.png)
 
 
    Continuez l'instalaltion jusqu'à l'écran de vérifications finales puis finalisez l'isntalaltion
-   screen
+   
    
    
 ## 3. Ajout d'un serveur Windows Core à un serveur Windows graphique
@@ -69,23 +67,27 @@ Puis, allez dans `Manage` > `Add Roles and Festures`
 1. Connectez-vous au serveur Windows Core avec un compte administrateur local.
 2. Tapez la commande `SConfig` dans l'invite de commande et appuyez sur Entrée.
 
-    ![Sconfig](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/56fcfe942535d9f5b9fd5b683e1da38e8e58a018/Resources/s02/S02%20WinCORE%2001%20Sconfig.png)
+    ![Sconfig](../Ressources/S02/S02_WinCORE01_Sconfig.png)
     
 ### Étape 2 : Modifier le nom de l'ordinateur
+
 1. Sur l'écran de configuration du serveur (*Server Configuration*), sélectionnez l'option **2** en tapant `2` pour modifier le nom de l'ordinateur.
+
 2. Saisissez le nouveau nom (*WINCORE-1*) pour le serveur Core et appuyez sur Entrée. 
+
 3. Redémarrez le serveur lorsqu'on vous le demande.
 
-   ![SS2](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/56fcfe942535d9f5b9fd5b683e1da38e8e58a018/Resources/s02/S02%20WinCORE%2002%20computer%20name.png)
+    ![SS2](../Ressources/S02/WinCORE_computer_name.png)
 
 ### Étape 3 : Rejoindre le domaine Active Directory
+
 1. Après le redémarrage, reconnectez-vous au serveur et relancez `SConfig`.
 2. Sélectionnez l'option **1** (*Domain/Workgroup*) en tapant `1`.
 3. Tapez `D` pour joindre un domaine.
 4. Indiquez le nom du domaine et un utilisateur autorisé dans le format `billu.lan`.
 5. Saisissez le mot de passe de l'utilisateur lorsque vous y êtes invité.
 
-    ![SS3](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/56fcfe942535d9f5b9fd5b683e1da38e8e58a018/Resources/s02/S02%20WinCORE%2003%20Change%20Domain.png)
+    ![SS3](../Ressources/S02/WinCORE_Change_Domain.png)
 
 ### Étape 4 : Finaliser l'intégration
 1. Si on vous propose de changer le nom de l'ordinateur à nouveau, sélectionnez **Non** (puisque cela a déjà été fait).
@@ -96,21 +98,21 @@ Après le redémarrage :
 - Connectez-vous au serveur avec les informations d'identification du domaine.
 - Tapez `SConfig` pour confirmer que le serveur est bien joint au domaine Active Directory.
 
-    ![SS4](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/56fcfe942535d9f5b9fd5b683e1da38e8e58a018/Resources/s02/S02%20WinCORE%2004%20final.png)
+    ![SS4](../Ressources/S02/WinCORE_final.png)
 
 ## Contrôler Windows Server Core depuis Windows Server 2022
 
 - Une fois le serveur Core intégré au domaine, vous pouvez le gérer facilement depuis un serveur Windows Server 2022 avec interface graphique. Il suffit d'utiliser le *Server Manager* pour ajouter le serveur Windows Core à la liste des serveurs. Cliquez Manage > Add Servers
 
-![SS5](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/a09caebfba4f7dae7c7374a4c6ef710b28d34fb9/Resources/s02/S02%20WinCORE%2005%20windows%20server%20manager.png) 
+    ![SS5](../Ressources/S02/WinCORE_Windows_server_manager.png) 
 
 - Cherchez votre serveur sur l'Active Directory
 
-![SS6](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/a09caebfba4f7dae7c7374a4c6ef710b28d34fb9/Resources/s02/S02%20WinCORE%2006%20windows%20server%20manager%20add.png)
+    ![SS6](../Ressources/S02/WinCORE_windows_server_manager_add.png)
     
 - Votre serveur doit apparaître sur le serveur manager
 
-![SS7](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/a09caebfba4f7dae7c7374a4c6ef710b28d34fb9/Resources/s02/S02%20WinCORE%2007%20windows%20server%20manager%20final.png)
+    ![SS7](../Ressources/S02/WinCORE_windows_server_manager_final.png)
 
 ## 4. Créer une Unité Organisationnelle et des groupes de sécurités sur Active Directory
 
@@ -118,19 +120,21 @@ Après le redémarrage :
 1. Connectez-vous à un serveur Windows avec l'interface graphique et les outils d'administration Active Directory installés.
 2. Ouvrez l'outil **Active Directory Users and Computers**.
 
-    ![ADUC](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/b9b466c9493b1d0a228a7b2feff6877fccedadc6/Resources/s02/S02%20OU%20et%20des%20groupes%2001.png)
+    ![ADUC](../Ressources/S02/OU_et_des_groupes_01.png)
 
 ### Étape 2 : Créer une nouvelle Unité Organisationnelle
-1. Dans la console ADUC, naviguez jusqu'au domaine billu.lan (ou domaine souhaité).
+1. Dans la console AD.DC, naviguez jusqu'au domaine billu.lan (ou domaine souhaité).
 2. Faites un clic droit sur le domaine et sélectionnez **New > Organizational Unit**.
 
-    ![SS2](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/b9b466c9493b1d0a228a7b2feff6877fccedadc6/Resources/s02/S02%20OU%20et%20des%20groupes%2002.png)
+    ![SS2](../Ressources/S02/New_OU.png)
 
 3. Donnez un nom à votre Unité Organisationnelle et cliquez sur **OK**.
 
-    ![SS3](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/b9b466c9493b1d0a228a7b2feff6877fccedadc6/Resources/s02/S02%20OU%20et%20des%20groupes%2003.png)
+    ![SS3](../Ressources/S02/Nommage_OU.png)
 
 4. La nouvelle Unité Organisationnelle apparaît dans la structure Active Directory.
+
+    
 
 ### Étape 3 : Créer un groupe de sécurité
 1. Naviguez jusqu'à l'Unité Organisationnelle que vous venez de créer.
@@ -143,13 +147,13 @@ Après le redémarrage :
    - **Group Type** : Sélectionnez **Security**.
 5. Cliquez sur **OK** pour créer le groupe.
 
-    ![SS4](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/b9b466c9493b1d0a228a7b2feff6877fccedadc6/Resources/s02/S02%20OU%20et%20des%20groupes%2004.png)
+    
 
 ### Étape 4 : Ajouter des membres au groupe
 1. Faites un clic droit sur le groupe nouvellement créé et sélectionnez **Properties**.
 2. Allez à l’onglet **Members** et cliquez sur **Add**.
 
-    ![SS6](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/e68f1869c36250bbd8e136f2888cdf7f3782f437/Resources/s02/Capture%20d'%C3%A9cran%202024-12-12%20101820.png)
+    ![SS6](../Ressources/S02/New_group.png)
 
 3. Saisissez les noms des utilisateurs ou groupes que vous souhaitez ajouter, puis cliquez sur **Check Names** pour valider.
 4. Une fois les membres ajoutés, cliquez sur **OK** pour sauvegarder.
