@@ -46,7 +46,7 @@ Vous pouvez créer un ticket via le panneau de gauche pour faire remonter aux se
 ![](../Ressources/S03/glpi_ticket_2.png)
 
 
-FAQ : 
+## FAQ : 
 
 ### Je n'ai pas accès à ma session depuis mon poste de travail
 
@@ -73,9 +73,16 @@ Si le problème persiste, contacter le service informatique.
 
 ### Je n'arrive pas à accèder à la plateforme de ticketing 
 
+Soyez vigilants car l'identifiant de la palteforme de ticketing (GLPI) n'est pas le même que celui de votre session. Vous devez utiliser votre adresse mail professionnelle puis votre mot de passe de session.
+De plus, dans le champs `login source` sélectionnez bien *Annuaire Billu* afin d'accéder à la bonne plateforme. 
 
+Si le raccourci sur le bureau n'est pas présent ou supprimé par erreur, vous pouvez vous rendre temporairement sur http://172.18.0.4/  
+ 
+Si le problème persiste, contacter le service informatique.
 
 ### J'ai un problème avec un logiciel que faire ? 
+
+Vous pouvez dès à présent créer un ticket expliquant votre problème pour faire parvenir l'information au service compétent. Pour vous rendre sur la plateforme dédiée au ticketing double-cliquer sur le raccourci présent sur le bureau. 
 
 
 
