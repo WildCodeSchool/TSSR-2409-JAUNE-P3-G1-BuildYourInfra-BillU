@@ -11,12 +11,14 @@
             "id": "9c56ce6e7b9e9984",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Ressources/S04/GPO Télemetry.png"
+                "file": "S04/S04_INSTALL.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "GPO Télemetry"
+              "icon": "lucide-file",
+              "title": "S04_INSTALL"
             }
           }
         ]
@@ -163,6 +165,7 @@
   },
   "active": "9c56ce6e7b9e9984",
   "lastOpenFiles": [
+    "Ressources/S04/GPO Télemetry.png",
     "Ressources/S04/CheminGPOtelemetry.png",
     "Ressources/S04/ArboressenceGPOtelemetry.png",
     "Ressources/S03/04GPO-ParamFondEcr.png",
@@ -177,7 +180,6 @@
     "S04/S04_INSTALL.md",
     "S04_INSTALL.md",
     "S04/pfsenseaddrule.png",
-    "pfsenseaddrule.png",
     "Ressources/S04/S05/s05_INSTALL.md",
     "Ressources/S04/S05",
     "S01/S01_Install.MD",

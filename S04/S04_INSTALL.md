@@ -41,11 +41,12 @@
     ![](../Ressources/S04/RéglesPfsenseLAN.png)
 
     10.1 Vous pouvez supprimer un rule avec Delete, desactiver au activer rule avec Toggle, Copier un rule avec Copy, Sauvegarder un rule avec Save, Ajouter un Separateur avec un couleur differente avec Separator
+    
     ![](../Ressources/S04/Pfsensebarredetache.png)
 
  2. Gestion de la télémétrie par GPO 
 
-    1.2 Creation de la GPO
+    1.2 Création de la GPO
 
     ![](../Ressources/S04/ArboressenceGPOtelemetry.png)
 
@@ -53,7 +54,7 @@
 
     ![](../Ressources/S04/CheminGPOtelemetry.png)
 
-    3.2 Parametre a Enabled
+    3.2 Paramètre a Enabled
 
     ![](../Ressources/S04/GPO%20T%C3%A9lemetry.png)
     ![](../Ressources/S04/GPO%20t%C3%A9lemetry%202.png)
