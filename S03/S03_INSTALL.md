@@ -165,10 +165,14 @@ Environnent de test sur Proxmox en VM
   ![](../Ressources/S03/07GPO-ParamDepLog.png)
   
 - GPO status: Enabled
+  
+  ![](../Ressources/S03/07GPO-DepLogStatus.png)
+  
 - Groupes de filtrage:
    - GrpOrdTest 
 - OU de lien de la GPO: Billu_Computers
 
+  ![](../Ressources/S03/07GPO-DepLogScope.png)
   
 #### GPO: Gestion de l'alimentation
 - Type de GPO: Ordinateur
@@ -177,13 +181,18 @@ Environnent de test sur Proxmox en VM
   - Computer Configuration → Policies → Administrative Templates → System → Power Management
 - Pamètres de la GPO:
    
-    ![](../Ressources/S03/08GPO-ParamGestAlim.png)
+  ![](../Ressources/S03/08GPO-ParamGestAlim.png)
   
 - GPO status: Enabled
+  
+  ![](../Ressources/S03/08GPO-GestAlimStatus.png)
+  
 - Groupes de filtrage:
    - GrpOrdTest
 - OU de lien de la GPO: Billu_Computers
-
+  
+  ![](../Ressources/S03/08GPO-GestAlimScope.png)
+  
 #### GPO: Gestion de la mise en veille des postes utilisateurs en cas d'inactivité
 - Type de GPO: Utilisateur
 - Nommage de la GPO: Usr-Glo-1224-A-Misveil
