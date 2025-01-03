@@ -22,7 +22,7 @@
 
     ![](../Ressources/S04/Pfsensepagesd'accueil.png)
 
-    6.1 Vous pouvez allez dans l'onglet Firewall et Rules
+    6.1 Vous pouvez aller dans l'onglet Firewall et Rules
 
     ![](../Ressources/S04/Pfsenserules.png)
 
