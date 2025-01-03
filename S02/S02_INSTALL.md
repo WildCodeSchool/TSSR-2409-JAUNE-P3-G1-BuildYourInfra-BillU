@@ -3,32 +3,32 @@
 
 ## 1. Prérequis Techniques 
 
-### 1.1 Prérequis Active Directory 
+### 1.1 Prérequis pour Active Directory 
 
 - Avoir un serveur Windows 2022 en graphique
 
 ### Prérequis pour Windows serveur 2022
 
-Environnent de test sur Proxmox en VM
+Environment de test sur Proxmox en VM
 
 * Memory      4 GB
     
 * Processors  2 
     
-* Reseau      vmbr525
+* Réseau      vmbr525
 
-* IP de réseau     : 172.18.0.0/16 
+* Adresse IP de réseau     : 172.18.0.0/16 
   
-* IP de passerelle : 172.18.255.254 
+* Adresse IP de passerelle : 172.18.255.254 
   
-* IP DNS           : 172.15.255.254 
+* Adresse IP du DNS        : 172.15.255.254 
 
 ## 2. Installation Active Directory
 
 2.1 Choisir le serveur cible dans l'interface de Server Manager. 
 ![](../Ressources/S02/choix_du_serveur.png)
 
-2.2 Puis, allez dans `Manage` > `Add Roles and Festures`
+2.2 Puis, allez dans `Manage` > `Add Roles and Features`
 
 ![](../Ressources/S02/Manage_add_roles.png)
 
@@ -37,27 +37,27 @@ Environnent de test sur Proxmox en VM
 ![](../Ressources/S02/capture_install_adds_role.png)
 
 
-2.4 Vérifier l’installation de la Feature `Group Policy Management`
+2.4 Vérifier l’installation de la fonctionnalité `Group Policy Management`
    
 ![](../Ressources/S02/capture_install_adds_feature.png)
    
-2.5 Redémarrerez puis commencez la configuration post installation. 
+2.5 Redémarrez puis commencez la configuration post installation. 
    
    
 2.6 Donnez un nom à votre nouveau domaine Active Directory.
 
    ![](../Ressources/S02/Nommage_AD.DC.png)
    
-2.7 Choisissiez le niveau fonctionnel le plus élevé pour votre domaine et votre forêt
+2.7 Choisissez le niveau fonctionnel le plus élevé pour votre domaine et votre forêt
 
    ![](../Ressources/S02/adds_config_niv_win.png)
    
-2.8 Laissez les chemins par défauts pour les dossiers `NTDS` & `SYSVOL`
+2.8 Laissez les chemins par défaut pour les dossiers `NTDS` & `SYSVOL`
 
    ![](../Ressources/S02/adds_config_path.png)
 
 
-   Continuez l'instalaltion jusqu'à l'écran de vérifications finales puis finalisez l'isntalaltion
+   Continuez l'installation jusqu'à l'écran de vérifications finales puis finalisez l'installation
    
    
    
@@ -84,7 +84,7 @@ Environnent de test sur Proxmox en VM
 1. Après le redémarrage, reconnectez-vous au serveur et relancez `SConfig`.
 2. Sélectionnez l'option **1** (*Domain/Workgroup*) en tapant `1`.
 3. Tapez `D` pour joindre un domaine.
-4. Indiquez le nom du domaine et un utilisateur autorisé dans le format `billu.lan`.
+4. Indiquez le nom du domaine et d'un utilisateur autorisé dans le format `billu.lan`.
 5. Saisissez le mot de passe de l'utilisateur lorsque vous y êtes invité.
 
     ![SS3](../Ressources/S02/WinCORE_Change_Domain.png)
@@ -114,7 +114,7 @@ Après le redémarrage :
 
     ![SS7](../Ressources/S02/WinCORE_windows_server_manager_final.png)
 
-## 4. Créer une Unité Organisationnelle et des groupes de sécurités sur Active Directory
+## 4. Créer une Unité Organisationnelle et des groupes de sécurité sur Active Directory
 
 ### Étape 1 : Accéder à la console Active Directory Users and Computers
 1. Connectez-vous à un serveur Windows avec l'interface graphique et les outils d'administration Active Directory installés.
@@ -151,7 +151,7 @@ Après le redémarrage :
 
 ### Étape 4 : Ajouter des membres au groupe
 1. Faites un clic droit sur le groupe nouvellement créé et sélectionnez **Properties**.
-2. Allez à l’onglet **Members** et cliquez sur **Add**.
+2. Allez dans l’onglet **Members** et cliquez sur **Add**.
 
     ![SS6](../Ressources/S02/New_group.png)
 
