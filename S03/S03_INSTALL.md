@@ -30,17 +30,6 @@ Environnent de test sur Proxmox en VM
  
 ### Configuration des GPOs de sécurité
 
-#### GPO: Politique de gestion des mots de passes:
-- Type de GPO: 
-- Nommage de la GPO: 
-- Chemin d'accès du paramétrage de la GPO: 
-  - 
-- Paramètres de la GPO:
-- GPO status: 
-- Groupes de filtrage:
-   - 
-- OU de lien de la GPO:
-
 #### GPO: Blocage de l'accès au panneau de configuration
 - Type de GPO: Utilisateur
 - Nommage de la GPO: Usr-Glo-1224-D-PanConf
@@ -103,10 +92,8 @@ Environnent de test sur Proxmox en VM
   ![](../Ressources/S03/02GPO-LimPrivStatus.png)
   
 - Groupes de filtrage:
-   - GrpOrdCRP
-   - GrpOrdDSI
-   - GrpOrdFEC
-   - GrpOrdJUR
+   - GrpOrdTest
+   
 - OU de lien de la GPO: Billu_Computers
 
   ![](../Ressources/S03/02GPO-LimPrivScope.png)
@@ -168,28 +155,34 @@ Environnent de test sur Proxmox en VM
    - Authenticated Users
 - OU de lien de la GPO: Communication et Relations Publiques   
 
-#### GPO: Déploiement des logiciels
-- Type de GPO: 
-- Nommage de la GPO: 
+#### GPO: Déploiement des logiciels (ex Firefox)
+- Type de GPO: Ordinateur
+- Nommage de la GPO: Ord-Glo-1224-A-DepLogFir
 - Chemin d'accès du paramétrage de la GPO: 
-  - 
+  - Computer Configuration → Policies → Software Settings → Software installation 
 - Pamètres de la GPO:
-- GPO status: 
+  
+  ![](../Ressources/S03/07GPO-ParamDepLog.png)
+  
+- GPO status: Enabled
 - Groupes de filtrage:
-   - 
-- OU de lien de la GPO:
+   - GrpOrdTest 
+- OU de lien de la GPO: Billu_Computers
 
   
 #### GPO: Gestion de l'alimentation
-- Type de GPO: 
-- Nommage de la GPO: 
+- Type de GPO: Ordinateur
+- Nommage de la GPO: Ord-Glo-1224-D-GesAlim
 - Chemin d'accès du paramétrage de la GPO: 
-  - 
+  - Computer Configuration → Policies → Administrative Templates → System → Power Management
 - Pamètres de la GPO:
-- GPO status: 
+   
+    ![](../Ressources/S03/08GPO-ParamGestAlim.png)
+  
+- GPO status: Enabled
 - Groupes de filtrage:
-   - 
-- OU de lien de la GPO:
+   - GrpOrdTest
+- OU de lien de la GPO: Billu_Computers
 
 #### GPO: Gestion de la mise en veille des postes utilisateurs en cas d'inactivité
 - Type de GPO: Utilisateur
@@ -198,11 +191,19 @@ Environnent de test sur Proxmox en VM
   - Users Configuration → Administrative Templates Policy definitions → Control Panel → Personalization → Screen saver timeout
 - Pamètres de la GPO:
   - Number of seconds to wait to enable the screen saver
+
+  ![](../Ressources/S03/05GPO-ParamMisveil.png)
+
 - GPO status: Computer configuration settings disabled
+
+  ![](../Ressources/S03/05GPO-MisveilStatus.png)
+
 - Groupes de filtrage:
    - Authenticated Users
    - GrpGlobal
 - OU de lien de la GPO: 01-PARIS20
+
+  ![](../Ressources/S03/05GPO-MisveilScope.png)
 
 ## 3 Installation et configuration d'un serveur de gestion de parc: 
 
