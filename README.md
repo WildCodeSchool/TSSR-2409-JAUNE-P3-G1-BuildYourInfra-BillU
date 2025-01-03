@@ -34,65 +34,70 @@ Des personnels extérieurs travaillent ponctuellement ou à temps plein avec cer
 Par sprint :
 # S01
 
-1. Faire une proposition d'objectif par sprint pour l'ensemble de la formation
+1.1 Faire une proposition d'objectif par sprint pour l'ensemble de la formation
    
    
-2. Établir un schéma réseau prévisionnel de l'infrastructure
+2.1 Établir un schéma réseau prévisionnel de l'infrastructure
 
 
 # S02
 
-1. Création d'un domaine AD sur un serveur Windows Server 2022 en GUI avec les rôles AD-DC et DHCP et DNS et une réplication du rôle AD-DC sur un serveur Windows Server 2022 Core.
+2.1 Création d'un domaine AD sur un serveur Windows Server 2022 en GUI avec les rôles AD-DC et DHCP et DNS et une réplication du rôle AD-DC sur un serveur Windows Server 2022 Core.
 
   
     
-2. Création d'une arborescente AD avec une création d'OU et création des groupes avec une convention de nommage.
+2.2 Création d'une arborescente AD avec une création d'OU et création des groupes avec une convention de nommage.
 
 
-3. Intégration des utilisateurs a l'AD-DC
+2.3 Intégration des utilisateurs a l'AD-DC
 
   
    
 # S03
 
-1. Création de GPO de sécurité
-      1. Politique de mot de passe
-      2. Blocage complet ou partiel au panneau de configuration
-      3. Ecran de veille avec mot de passe en sortie
-      4. Limitation des tentatives d'élévation de privilèges
-      5. Politique de sécurité PowerShell
+3.1 Création de GPO de sécurité 
 
-2. Création de GPO Standard
-      1. Fond d'écran obligatoire 
-      2. Mappage de lecteurs
-      3. Gestion de l'alimentation
-      4. Déploiement de logiciels telles que Firefox
+- Politique de mot de passe
+- Blocage complet ou partiel au panneau de configuration
+- Ecran de veille avec mot de passe en sortie
+- Imitation des tentatives d'élévation de privilèges
+- Politique de sécurité PowerShell
+
+3.2 Création de GPO Standard
+
+- Fond d'écran obligatoire 
+- Mappage de lecteurs
+- Gestion de l'alimentation
+- Déploiement de logiciels telles que Firefox
 
 
 
-3. Mise en place d'un serveur Debian pour la gestion du parc
-      1. Installation du logiciel GLPI 
-      2. Synchronisation AD
-      3. Inclusion des utilisateurs au GLPI
-      4. Gestion des incidents, mise en place du ticketing
-      5. Accès et gestion à partir d'un client 
+3.3 Mise en place d'un serveur Debian pour la gestion du parc
+
+- Installation du logiciel GLPI 
+- Synchronisation AD
+- Inclusion des utilisateurs au GLPI
+- Gestion des incidents, mise en place du ticketing
+- Accès et gestion à partir d'un client 
 
 
    
 # S04
 
-1. Création de GPO pour la gestion de la télémétrie.
+4.1 Création de GPO pour la gestion de la télémétrie.
 
-2. Configuration du Firewall PFSense et mise en place de réglés 
-3. Remplissage des Summary sur l'ensemble des machines virtuelle 
+4.2 Configuration du Firewall PFSense et mise en place de réglés 
+
+4.3 Remplissage des Summary sur l'ensemble des machines virtuelle 
 
 # S05
 
-1. Création d'un serveur Windows pour la gestion des sauvegardes en RAID 1
-2. Mise en places des dossiers de partages.
-      1. un dossier individuel nommé I
-      2. un dossier de service nommé J
-      3. un dossier de département nommé K 
+5.1 Création d'un serveur Windows pour la gestion des sauvegardes en RAID 1
+
+5.2 Mise en places des dossiers de partages.
+- un dossier individuel nommé I
+- un dossier de service nommé J
+- un dossier de département nommé K 
 
 # S06
 

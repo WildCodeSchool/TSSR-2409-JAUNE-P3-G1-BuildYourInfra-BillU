@@ -48,7 +48,7 @@ Exemple:
 ### Structure physique 
 
 Après avoir consulté la structuration de l'entreprise et son nombre d'employés, faire un premier schéma basique sur lequel s'appuyer.
-![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/980f2ce906fb85a4b45f7f7f81248ef34d80e733/Resources/Sch%C3%A9ma%20provisoire.png)
+![](../Resources/Sch%C3%A9ma%20provisoire.png)
 
 Une fois avoir validé votre schéma comme solution possible vous pouvez créer une version qui visualisation que l'on qualifiera de "matérielle" avec l'ensemble du parc informatique (cf ci-dessous) 
 ![](../Ressources/S01/schema_draw_reseau.png)
