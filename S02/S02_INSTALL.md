@@ -9,7 +9,7 @@
 
 ### Prérequis pour Windows serveur 2022
 
-Environment de test sur Proxmox en VM
+Environnent de test sur Proxmox en VM
 
 * Memory      4 GB
     
@@ -38,21 +38,21 @@ Puis, allez dans `Manage` > `Add Roles and Festures`
 
    ![](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/3ce96eab545432bb39b253f41d960e9c5f3856f6/Resources/choix%20des%20roles.png)
 
-   Choisir les roles à installer
+   Choisir les rôles à installer
    
    sceen role 
 
-   Vérifier l'isntallation de la feature `Group Policy Management`
+   Vérifier l’installation de la Feature `Group Policy Management`
    
-   Screen
+   Screenshots
    
-   Redémarrarez puis commencez la configuration post instalaltion. 
-   Screen
+   Redémarrerez puis commencez la configuration post installation. 
+   Screenshots
    
    Donnez un nom à votre nouveau domaine Active Directory.
-   Screen
+   Screenshots
    
-   Choissiez le niveau fonctionnel le plus élévé pour votre domaine et votre forêt
+   Choisissiez le niveau fonctionnel le plus élevé pour votre domaine et votre forêt
    Screen
    
    Laissez les chemins par défauts pour les dossiers `NTDS` & `SYSVOL`
@@ -108,7 +108,7 @@ Après le redémarrage :
 
 ![SS6](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/a09caebfba4f7dae7c7374a4c6ef710b28d34fb9/Resources/s02/S02%20WinCORE%2006%20windows%20server%20manager%20add.png)
     
-- Votre serveur doit apparaitre sur le serveur manager
+- Votre serveur doit apparaître sur le serveur manager
 
 ![SS7](https://github.com/WildCodeSchool/TSSR-2409-JAUNE-P3-G1-BuildYourInfra-BillU/blob/a09caebfba4f7dae7c7374a4c6ef710b28d34fb9/Resources/s02/S02%20WinCORE%2007%20windows%20server%20manager%20final.png)
 
