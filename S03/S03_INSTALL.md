@@ -103,10 +103,8 @@ Environnent de test sur Proxmox en VM
   ![](../Ressources/S03/02GPO-LimPrivStatus.png)
   
 - Groupes de filtrage:
-   - GrpOrdCRP
-   - GrpOrdDSI
-   - GrpOrdFEC
-   - GrpOrdJUR
+   - GrpOrdTest
+   
 - OU de lien de la GPO: Billu_Computers
 
   ![](../Ressources/S03/02GPO-LimPrivScope.png)
