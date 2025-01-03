@@ -142,12 +142,20 @@ Environnent de test sur Proxmox en VM
 - Pamètres de la GPO:
   - Cocher enabled
   - Préciser le chemin complet du fichier utilisé comme fond d'écran. Ce fichier se doit d'être placé dans un dossier partagé avec un paramétrage de sécurité qui permet la lecture à tous les utilisateurs
+  
+   ![](../Ressources/S03/04GPO-ParamFondEcr.png)
+  
 - GPO status: Enabled
+  
+  ![](../Ressources/S03/04GPO-FondEcrStatus.png)
+  
 - Groupes de filtrage:
    - Authenticated Users
    - GrpGlobal
 - OU de lien de la GPO: 01-PARIS20
-
+  
+  ![](../Ressources/S03/04GPO-FondEcrScope.png)
+  
 #### GPO: Mappage des lecteurs
 - Type de GPO: 
 - Nommage de la GPO: 
