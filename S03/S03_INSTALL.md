@@ -135,15 +135,18 @@ Environnent de test sur Proxmox en VM
 ### Configuration des GPOs standardisation des comptes utilisateurs 
 
 #### GPO: Uniformisation du fond d'écrans des comptes utilisateurs
-- Type de GPO: 
-- Nommage de la GPO: 
+- Type de GPO: Utilisateur
+- Nommage de la GPO: Usr-Glo-1224-A-FondEcran
 - Chemin d'accès du paramétrage de la GPO: 
-  - 
+  - Users Configuration → Policies → Administrative Templates Policy definitions → Desktop → Desktop → Desktop Wallpaper
 - Pamètres de la GPO:
-- GPO status: 
+  - Cocher enabled
+  - Préciser le chemin complet du fichier utilisé comme fond d'écran. Ce fichier se doit d'être placé dans un dossier partagé avec un paramétrage de sécurité qui permet la lecture à tous les utilisateurs
+- GPO status: Enabled
 - Groupes de filtrage:
-   - 
-- OU de lien de la GPO:
+   - Authenticated Users
+   - GrpGlobal
+- OU de lien de la GPO: 01-PARIS20
 
 #### GPO: Mappage des lecteurs
 - Type de GPO: 
