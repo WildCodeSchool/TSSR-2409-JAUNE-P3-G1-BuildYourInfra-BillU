@@ -10,6 +10,20 @@
  - Un **dossier de service**, avec une lettre de mappage réseau **J**, accessible par tous les utilisateurs d'un même service.
  - Un **dossier de département**, avec une lettre de mappage **K**, accessible par tous les utilisateurs d'un même département.
 
+ Voici quelque exemple 
+
+
+ ![](../Ressources/S05/Gpo_Driv.png)
+
+
+ ![](../Ressources/S05/Exemple_GPO_map.png)
+
+
+ ![](../Ressources/S05/Dossier_partager.png)
+
+
+ ![]()
+
 
 
 ## 2 STOCKAGE AVANCÉ - Mettre en place du RAID 1 sur un serveur
