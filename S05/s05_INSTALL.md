@@ -22,8 +22,6 @@
  ![](../Ressources/S05/Dossier_partager.png)
 
 
- ![]()
-
 
 
 ## 2 STOCKAGE AVANCÉ - Mettre en place du RAID 1 sur un serveur
@@ -96,7 +94,6 @@ Environnent de test sur Proxmox en VM
 
 ![](../Ressources/S05/Group_Bypass_logon_Time.png)
 
-3.3 Gestion des exceptions : prévoir un groupe bypass
 
 
 

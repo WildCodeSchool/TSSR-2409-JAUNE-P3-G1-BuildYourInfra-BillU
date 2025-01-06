@@ -149,7 +149,7 @@ Environnent de test sur Proxmox en VM
 - Chemin d'accès du paramétrage de la GPO: 
   - Users Configuration → Preferences → Windows Settings → Drive Maps → Drive Map (Drive :K)
 - Pamètres de la GPO:
-  ![](../captureparamètre
+  ![](../captureparamètre)
 - GPO status: Enabled
 - Groupes de filtrage:
    - Authenticated Users
