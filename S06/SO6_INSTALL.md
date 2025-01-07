@@ -26,23 +26,38 @@ Environment de test sur Proxmox en VM
         sudo apt-get update
         sudo apt-get install curl lsb-release ca-certificates gnupg2 pwgen
 
+![](../Ressources/S06/s06_Graylog_install05.png)
+
 - Installation de MongoBB
 
         curl -fsSL https://www.mongodb.org/static/pgp/server-6.0.asc | sudo gpg -o /usr/share/keyrings/mongodb-server-6.0.gpg --dearmor  
 
+![](../Ressources/S06/s06_Graylog_install06.png)
+
         echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mongodb.org/apt/debian bullseye/mongodb-org/6.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 
+![](../Ressources/S06/s06_Graylog_install01.png)
+
         apt-get update
+
+![](../Ressources/S06/s06_Graylog_install02.png)
 
         wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb
         dpkg -i libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb
 
         apt-get install -y mongodb-org
 
+![](../Ressources/S06/s06_Graylog_install08.png)
+
         systemctl daemon-reload
         systemctl enable mongod.service
+
+![](../Ressources/S06/s06_Graylog_install10.png)
+
         systemctl restart mongod.service
         systemctl --type=service --state=active | grep mongod
+
+![](../Ressources/S06/s06_Graylog_install12.png)
 
 - Installation d'OpenSearh
 
@@ -103,7 +118,8 @@ Environment de test sur Proxmox en VM
 
             pwgen -N 1 -s 96
 
-        ![]()
+![](../Ressources/S06/S06_Graylog_key01.png)
+
 
     - Collez la clé au niveau du paramétre "password_secret"
 
