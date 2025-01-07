@@ -159,3 +159,23 @@ Et voici la page de garde de votre journalisation
 
 
 ## 2. Supervision 
+
+### Prerequis 
+
+### Prérequis pour Windows serveur 2022
+
+Environment de test sur Proxmox en VM
+
+* Memory      4 GB
+    
+* Processors  2
+    
+* Réseau      vmbr525
+
+* Adresse IP de réseau     : 172.18.0.5/16 
+  
+* Adresse IP de passerelle : 172.18.255.254 
+  
+* Adresse IP du DNS        : 172.15.255.254 
+
+2.1 Installation de PRTG
