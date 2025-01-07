@@ -1,8 +1,8 @@
-## Journalisation 
+## 1. Journalisation 
 
 ### Prerequis 
 
-Contenaire Dedian 12
+Contenair Dedian 12
 
 Environment de test sur Proxmox en VM
 
@@ -130,6 +130,32 @@ Environment de test sur Proxmox en VM
 
 - Vous pouvez désormais vous connecter avec votre compte admin sur un moteur de recherche internet 
 
-![]()
+![](../Ressources/S06/S06_Page_Graylog.png)
 
-## Supervision 
+- Desactivation de la télémetrie 
+
+![](../Ressources/S06/S06_desactivation_de_la_télemetie.png)
+
+- Creation d'un profil
+
+![](../Ressources/S06/S06_Crée_un_profil.png)
+
+![](../Ressources/S06/S06_New_profil.png)
+
+- Creation d'un journal 
+
+![](../Ressources/S06/S06_GELF_UDP.png)
+
+![](../Ressources/S06/S06_onglet_de_parametrage.png)
+
+Vous obtenez comme resultat
+
+![](../Ressources/S06/S06_resultat.png)
+
+Et voici la page de garde de votre journalisation
+
+![](../Ressources/S06/S06_journalisation.png)
+
+
+
+## 2. Supervision 
