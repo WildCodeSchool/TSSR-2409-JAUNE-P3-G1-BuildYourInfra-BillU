@@ -121,10 +121,21 @@ Environment de test sur Proxmox en VM
 ![](../Ressources/S06/S06_Graylog_key01.png)
 
 
-    - Collez la clé au niveau du paramétre "password_secret"
+- Collez la clé au niveau du paramétre "password_secret"
 
 
             nano /etc/graylog/server/server.conf
+
+- faitez les modification suivantes
+
+![](../Ressources/S06/S06_conf_graylog1.png)
+![](../Ressources/S06/S06_conf_graylog2.png)
+![](../Ressources/S06/S06_conf_graylog3.png)
+![](../Ressources/S06/S06_conf_graylog4.png)
+
+
+- Démarrer graylog
+
 
             systemctl enable --now graylog-server
 
@@ -179,3 +190,27 @@ Environment de test sur Proxmox en VM
 * Adresse IP du DNS        : 172.15.255.254 
 
 2.1 Installation de PRTG
+
+- Télecharger PRTG a l'aide de ce [lien](https://www.paessler.com/fr) 
+
+- Cliquer sur Téléchargement gratuit 
+
+![](../Ressources/S06/S06_Key_PRTG.png)
+
+- Exécuter le fichier télécharger 
+
+![](../Ressources/S06/S06_PRTG_.EXE.png)
+
+- Choix de la langue
+
+![](../Ressources/S06/S06_PRTG_choix_langue.png)
+
+- Accord de la licence
+
+![](../Ressources/S06/S06_PRTG_accord_de_licence.png)
+
+- Entrer une adresse e-mail et cliquer sur le bouton suivant
+
+- Patienter pendant l'installation PRTG
+
+![](../)
