@@ -210,7 +210,36 @@ Environment de test sur Proxmox en VM
 ![](../Ressources/S06/S06_PRTG_accord_de_licence.png)
 
 - Entrer une adresse e-mail et cliquer sur le bouton suivant
+- Choisissez le mode d'installation
+
+![](../Ressources/S06/S06_PRTG_Install.png)
 
 - Patienter pendant l'installation PRTG
 
-![](../)
+![](../Ressources/S06/S06_PRTG_connection.png)
+
+- parametrage de PRTG
+
+![](../Ressources/S06/S06_Paramétrage_PRTG.png)
+
+![](../Ressources/S06/S06_PRTG_Ecrand'accueil.png)
+
+- Ajout d'un capteur 
+
+![](../Ressources/S06/S06_PRTG_Ajout_capteur.png)
+
+- Vous pouvez crée un equipement et/ou capteur
+
+![](../Ressources/S06/S06_PRTG_Ajout_capteur2.png)
+
+- Choix de l'equipement a supervisé 
+
+![](../Ressources/S06/S06_PRTG_choix_capteur.png)
+
+- Parametrage du capteur
+
+![](../Ressources/S06/S06_PRTG_config_capteur.png)
+
+- Resultat 
+
+![](../Ressources/S06/S06_resultat_capteur.png)
