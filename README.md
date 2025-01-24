@@ -122,11 +122,13 @@ Par sprint :
 
 # S08
  ## Infrastructure BillU
+ 
 8.1 Installation du rôle WSUS 
 
 8.2 Répartition des rôles FSMO sûr différents DC du domaine
 
- ## Partenariat Ecotechsolution-BillU
+ ## Partenariat Ecotechsolution-BillU
+ 
 8.3 Installation d'un tunnel VPN site à site
 
 8.4 Instauration d'une relation d'approbation entre les domaines AD des 2 entreprises
