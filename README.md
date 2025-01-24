@@ -101,4 +101,34 @@ Par sprint :
 
 # S06
 
+6.1 Mise en place d'une gestion des logs centralisée
+ - Installation du logiciel GrayLog sur CT dédié
+
+6.2 Mise en place d'une supervision de l'infrastructure réseau
+ - Installation de PRTG sur WINGUI-RAID
+ - Déploiement des sondes sur les matériels de l'infrastructure
+
+6.3 Modification AD Nouveau fichier RH 
+	1. Intégration des nouveaux utilisateurs
+	2. Modifications de certaines informations sur les effectifes 
+
+# S07
+
+7.1 Mise en place d'un serveur de messagerie
+ - Installation iRedMail sur CT dédié
+
+7.2 Mise en place d'un serveur de gestion de mot de passe
+ - Installation Passbolt ou Bitwarden sur CT dédié
+
+# S08
+ ## Infrastructure BillU
+8.1 Installation du rôle WSUS 
+
+8.2 Répartition des rôles FSMO sûr différents DC du domaine
+
+ ## Partenariat Ecotechsolution-BillU
+8.3 Installation d'un tunnel VPN site à site
+
+8.4 Instauration d'une relation d'approbation entre les domaines AD des 2 entreprises
+ 
 
