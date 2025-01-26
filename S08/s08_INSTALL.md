@@ -40,7 +40,7 @@ Cliquer "Next" jusqu'à avoir la proposition"install"
   
 ![](../Ressources/S08/S08WSUS-5.png)
 
-Une fois installer fermer la fenêtre d'installation et cliquer sur le drapeau jaune pour configurer le menu de post-installation du rôle WSUS  
+Une fois terminé fermer la fenêtre d'installation et cliquer sur le drapeau jaune pour configurer le menu de post-installation du rôle WSUS  
 Puis redémarrer le serveur
 
 ### Configuration du service WSUS  
