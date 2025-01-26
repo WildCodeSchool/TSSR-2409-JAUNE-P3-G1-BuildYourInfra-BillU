@@ -84,13 +84,55 @@ Vérifiez le nom d'hôte FQDN. S'il n'a pas été modifié après la mise à jou
 
 ![](../Ressources/S07/S07_install_IredMail6.png)
 
+
+![](../Ressources/S07/S07_install_IredMail7.png)
+
 * Si vous choisissez de stocker les comptes de messagerie dans OpenLDAP, le programme d'installation d'iRedMail vous demandera de définir le suffixe LDAP.
 
-![]()
-![]()
-![]()
-![]()
-![](../Ressources/S07/S07_install_IredMail1.png)
+![](../Ressources/S07/S07_install_IredMail8.png)
+
+* Ajoutez votre premier nom de domaine de messagerie
+
+![](../Ressources/S07/S07_install_IredMail10.png)
+
+* Définissez le mot de passe du compte administrateur de votre premier domaine de messagerie.
+
+![](../Ressources/S07/S07_install_IredMail9.png)
+
+
+* Choisissez les composants optionnels
+
+ 
+![](../Ressources/S07/S07_install_IredMail11.png)
+
+* Après avoir répondu aux questions ci-dessus, l'installateur d'iRedMail vous demandera de vérifier et de confirmer pour démarrer l'installation. Il installera et configurera automatiquement les packages requis. Tapez you Yet appuyez sur Enterpour démarrer.
+
+![](../Ressources/S07/S07_install_IredMail12.png)
+
+* Comment configurer un A enregistrement
+
+![](../Ressources/S07/S07_install_IredMail13.png)
+
+* Enregistrement MX pour le nom de domaine de messagerie
+
+![](../Ressources/S07/S07_Creation_NRR_MX.png)
+
+* Creation des news Resource Record
+
+![](../Ressources/S07/S07_Creation_RRT.png)
+![](../Ressources/S07/S07_Creation_NRR1.png)
+![](../Ressources/S07/S07_Creation_NRR2.png)
+![](../Ressources/S07/S07_Creation_NRR3.png)
+
+
+* Acces a IRedMail
+
+![](../Ressources/S07/S07_install_IredMail15.png)
+
+![](../Ressources/S07/S07_page_de_gardeIRedMail.png)
+
+![](../Ressources/S07/S07_install_IredMail16.png)
+
 
 
 ## FAQ : solutions aux problèmes connus et communs liés à l’installation et à la configuration
