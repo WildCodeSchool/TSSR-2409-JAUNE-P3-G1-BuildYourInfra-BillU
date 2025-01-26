@@ -21,13 +21,19 @@ Adresse IP du DNS : 172.18.0.1
 
 ### Installation du rôle WSUS
 À partir de Server Manager, installer le rôle Windows Server Update Services.  
-
+![](../Ressources/S08/S08WSUS-1.png)
 
 Cliquer sur le bouton "Add Features", puis sur "Next"
+![](../Ressources/S08/S08WSUS-2.png)
+
+Cocher WID Connectivity et WSUS Services
+![](../Ressources/S08/S08WSUS-3.png)
 
 Entrer le chemin d'accès du disque où nous souhaitons stocker les mises à jour.  
+![](../Ressources/S08/S08WSUS-4.png)
 
 Cliquer "Next" jusqu'à avoir la proposition"install" 
+![](../Ressources/S08/S08WSUS-5.png)
 
 Une fois installer fermer la fenêtre d'installation et cliquer sur le drapeau jaune pour configurer le menu de post-installation du rôle WSUS
 
