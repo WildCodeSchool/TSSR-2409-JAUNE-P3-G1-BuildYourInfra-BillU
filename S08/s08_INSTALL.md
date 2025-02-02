@@ -51,6 +51,48 @@ Puis redémarrer le serveur
  # Partenariat Ecotechsolution-BillU
  
 ## 1 Installation d'un tunnel VPN site à site
+Après plusieurs tentative avec la solution OpenVPN qui se sont avéré infructueuse nous avons choisi d'utiliser une autre solution présente nativement sur notre firewall pfsense et nous avons mis en palce un tunnel VPN site à site avec IPsec
+
+###Paramétrage du tunnel sous PFsense 
+- Ce connecter à l'interface graphique de pfsense à l'aide d'un navigateur internet présent sur une machine du résau LAN.
+- Dans « VPN -> IPSec
+![](../Ressources/S08/S08IPsec-1.png)
+
+- Cliquer sur add P1
+- Puis nous complétons les différents champs
+  - Description
+   
+![](../Ressources/S08/S08IPsec-2.png)
+
+  - internet protocol: IPv4
+  - Interface: WAN
+  - Remote Gateway qui correspond à l'interface WAN du firewall de l'infra d'EcoTechSolutions
+  
+![](../Ressources/S08/S08IPsec-3.png)
+
+  - Dans la partie "phase 1 proposal) on sélectionne Mutual PSK et on génère une Pre-Shared-Key qui serra copier et partagé avec l'entreprise EcoTechSolution nécéssaire pour l'authentification.
+
+![](../Ressources/S08/S08IPsec-4.png)
+
+Laisser les autres paramètres par défaut et cliquer sur save 
+
+- Cliquer sur Add P2
+  - Donner une description,
+  
+  ![](../Ressources/S08/S08IPsec-5.png)
+  
+  - Puis renseigner l'adresse IP du réseau LAN de EcoTechSolutions pour que les réseaux LAN communiquent entre eux.
+
+  ![](../Ressources/S08/S08IPsec-6.png)
+
+  - Sauvegarder.
+- La même configuration doit être réalisée, en adaptant les adresses IP et en intégrant la PSK créée plus haut sur le pare-feu de l'entreprise partenaire, pour pouvoir établir la connexion via le tunnel VPN.
+
+- Créer une nouvelle règle pour activer le VPN : Firewall->Rules-IPsec puis cliquer sur Add
+  - la règle de pare feu doit permettre le passage des paquets en provenance du tunnel VPN   
+
+   ![](../Ressources/S08/S08IPsec-7.png)
+ 
 
 ## 2 Instauration d'une relation d'approbation entre les domaines AD des 2 entreprises
  
