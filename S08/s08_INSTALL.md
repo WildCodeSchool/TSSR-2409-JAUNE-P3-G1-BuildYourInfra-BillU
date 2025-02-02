@@ -56,6 +56,7 @@ Après plusieurs tentative avec la solution OpenVPN qui se sont avéré infructu
 ###Paramétrage du tunnel sous PFsense 
 - Ce connecter à l'interface graphique de pfsense à l'aide d'un navigateur internet présent sur une machine du résau LAN.
 - Dans « VPN -> IPSec
+  
 ![](../Ressources/S08/S08IPsec-1.png)
 
 - Cliquer sur add P1
