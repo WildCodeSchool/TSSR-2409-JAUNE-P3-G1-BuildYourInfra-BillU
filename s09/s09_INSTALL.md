@@ -51,7 +51,8 @@ Une fois installé, nous devons configurer WSB pour réaliser la sauvegarde de l
   
 ![](../Ressources/S09/S09WSB-2.png)
   
-Double cliquer sur Local Backup et choisir Backup Schedule puis configurer les paramètres de sauvegarde dans la fenêtre d'aide
+Double cliquer sur Local Backup et choisir Backup Schedule pour des sauvegardes régulières ou backup once pour une sauvegarde ponctuel de l'AD.
+Puis configurer les paramètres de sauvegarde dans la fenêtre d'aide
   
 ![](../Ressources/S09/S09WSB-3.png)
   
@@ -66,10 +67,15 @@ Nous choisissons une sauvegarde complète de notre AD
 Paramètrer le moment de la réalisation de la sauvegarde.
   
 ![](../Ressources/S09/S09WSB-6.png)
-
-On choisi d'effectuer la sauvegarde sur un disque dédié 
-
-
+  
+On choisi d'effectuer la sauvegarde sur un disque dédié, dans le cas présent on choisi le disk monté en RAID sur le serveur core.
+  
+![](../Ressources/S09/S09WSB-7.png)
+  
+On peut consulter les différentes sauvegardes 
+  
+![](../Ressources/S09/S09WSB-8.png)
+  
 ## FAQ:
 
 
