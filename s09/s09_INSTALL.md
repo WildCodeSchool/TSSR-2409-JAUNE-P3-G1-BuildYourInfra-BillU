@@ -27,17 +27,20 @@ La GPO pour déployer 3CX
 
 ![](../Ressources/S09/3cx_3.png)
 
-Pour la configuration rendez vous dans `Computer Configuration > Policies > Software Settings > Software installation` puis clic droit `New > Package...`. 
+Pour la configuration rendez vous dans `Computer Configuration > Policies > Software Settings > Software installation` puis clic droit `New > Package...`
+
 ![](../Ressources/S09/3cx_1.png)
 
 Sélectionner le fichier d'installation .msi , choissisez l'option `Assigned` et validez. 
 
 Assurez vous que la source du programme est bien un chemin UNC et qu'il est accesible sur le réseau.
+
 ![](../Ressources/S09/3cx_2.png)
 
 Il ne reste plus qu'à lier la GPO aux différentes cibles.
 
 
+## FAQ:
 
 
 
