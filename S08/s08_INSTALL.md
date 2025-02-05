@@ -48,6 +48,32 @@ Puis redémarrer le serveur
 
 ## 2 Répartition des rôles FSMO sûr différents DC du domaine
 
+Le transfert des rôles FSMO sera réalisé avec l'utilitaire NTDSUTIL
+
+### Lancement de l'utilitaire ntdsutil.exe
+Ce lancement peut ce faire depuis un terminal cmd ou bien une console Powershell
+```
+ntdsutil.exe
+```
+### activer le mode maintenant FSMO
+Pour passer en mode "fsmo maintenance" il faut saisir la commande :
+```
+role
+```
+### Connexion au serveur auquel on souhaite transférer un rôle
+Il faut établir une connexion avec le serveur sur lequel on veut transférer un ou des rôles. Pour cela, dans le mode « fsmo maintenance », tapez la commande :
+```
+connections
+```
+Puis il faut préciser le serveur avec lequel on souhaite ce connecter:
+```
+connect to server WINCORE-1
+```
+Une fois connecté il faut quitter le mode connexion pour revenir au mode précédent, avec la commande : 'q puis entrer'
+
+### Transférer les rôles FSMO 
+
+
  # Partenariat Ecotechsolution-BillU
  
 ## 1 Installation d'un tunnel VPN site à site
