@@ -79,7 +79,7 @@ Une fois connecté il faut quitter le mode connexion pour revenir au mode préc�
 ## 1 Installation d'un tunnel VPN site à site
 Après plusieurs tentative avec la solution OpenVPN qui se sont avéré infructueuse nous avons choisi d'utiliser une autre solution présente nativement sur notre firewall pfsense et nous avons mis en palce un tunnel VPN site à site avec IPsec
 
-###Paramétrage du tunnel sous PFsense 
+### Paramétrage du tunnel sous PFsense 
 - Ce connecter à l'interface graphique de pfsense à l'aide d'un navigateur internet présent sur une machine du résau LAN.
 - Dans « VPN -> IPSec
   
