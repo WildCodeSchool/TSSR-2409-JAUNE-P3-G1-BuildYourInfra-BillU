@@ -17,8 +17,29 @@ Environnent de test sur Proxmox en VM
   Adresse IP du DNS : 172.18.0.1
 
 
-  ## Pc ADMIN WIN
-  ## Audit ACTIVE DIRECTORY - Utilisation d'un ou plusieurs logiciels
-  ## Audit SERVEURS LINUX - Utilisation d'un ou plusieurs logiciels dans la liste suivante
+  ## Audits
+
+Afin de lancer les audits, il faut se connecter sur le PC d'adminsitration, ID 559, et lancer une session SSH depuis MobaXterm pour accéder aux différentes machines.  Vous aurez besoin de connaitre les IP et un compte sur lequel effectué la cconnexion SSH.
+  
+
+  ### Audit ACTIVE DIRECTORY 
+  
+  Pour auditer le domaine Active Directory billu, vous pouvez installer ![Pingcastle](https://www.pingcastle.com/) ou ![PurpleKnight](https://www.purple-knight.com/fr/). Dans le cas de notre infrastructure, nous utilisons PingCastle, car il suffit de l'installer depuis une machine présente sur l'AD pour qu'il puisse scanner le domaine en entier. Vous recevrez un rapport avec une note sur 100, il faudra tendre vers 0 pour avoir un AD en bonne santé ! 
+  
+  Avant recommandations PingCastle
+  
+  ![](../Ressources/S10/Pingcastle_1.png)
+
+  Après 
+  ![]()
+
+
+
+  
+  ### Audit SERVEURS LINUX 
+
+  Pour 
+
+  
   ## Panne électrique sur l'infrastructure PRA
   
