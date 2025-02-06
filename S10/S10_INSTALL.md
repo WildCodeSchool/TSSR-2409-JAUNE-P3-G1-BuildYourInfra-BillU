@@ -24,7 +24,7 @@ Afin de lancer les audits, il faut se connecter sur le PC d'adminsitration, ID 5
 
   ### Audit ACTIVE DIRECTORY 
   
-  Pour auditer le domaine Active Directory billu, vous pouvez installer ![Pingcastle](https://www.pingcastle.com/) ou ![PurpleKnight]((https://www.purple-knight.com/fr/). Dans le cas de notre infrastructure, nous utilisons PingCastle, car il suffit de l'installer depuis une machine présente sur l'AD pour qu'il puisse scanner le domaine en entier. 
+  Pour auditer le domaine Active Directory billu, vous pouvez installer ![Pingcastle](https://www.pingcastle.com/) ou ![PurpleKnight](https://www.purple-knight.com/fr/). Dans le cas de notre infrastructure, nous utilisons PingCastle, car il suffit de l'installer depuis une machine présente sur l'AD pour qu'il puisse scanner le domaine en entier. 
 
   
   ## Audit SERVEURS LINUX - Utilisation d'un ou plusieurs logiciels dans la liste suivante
