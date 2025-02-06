@@ -20,3 +20,5 @@ Environnent de test sur Proxmox en VM
   ## Pc ADMIN WIN
   ## Audit ACTIVE DIRECTORY - Utilisation d'un ou plusieurs logiciels
   ## Audit SERVEURS LINUX - Utilisation d'un ou plusieurs logiciels dans la liste suivante
+  ## Panne électrique sur l'infrastructure PRA
+  
