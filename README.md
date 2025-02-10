@@ -77,13 +77,12 @@ Par sprint :
 
 
 
-3.3 Mise en place d'un serveur Debian pour la gestion du parc
+- Mise en place d'un serveur Debian pour la gestion du parc
 
-- Installation du logiciel GLPI 
-- Synchronisation AD
-- Inclusion des utilisateurs au GLPI
-- Gestion des incidents, mise en place du ticketing
-- Accès et gestion à partir d'un client 
+	- Installation du logiciel GLPI 
+	- Inclusion des utilisateurs au GLPI
+	- Gestion des incidents, mise en place du ticketing
+	- Accès et gestion à partir d'un client 
 
 
    
