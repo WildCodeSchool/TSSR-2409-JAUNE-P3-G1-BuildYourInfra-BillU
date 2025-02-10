@@ -97,8 +97,3 @@ Environnent de test sur Proxmox en VM
 
 
 
-# SAUVEGARDE - Mettre en place une sauvegarde de données
-
-1. Faire le bon choix des données à sauvegarder (ex.: dossiers partagés des utilisateurs)
-2. Emplacement de la sauvegarde sur un disque différents de celui des données d'origine
-3. Mettre en place une planification de sauvegarde (script, AT, GPO, logiciel, etc.)
