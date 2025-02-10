@@ -28,7 +28,7 @@ Afin de lancer les audits, il faut se connecter sur le PC d'adminsitration, ID 5
   
   Avant recommandations PingCastle
   
-  ![](../Ressources/S10/Pingcastle_1.png)
+  ![](../Ressources/S10/Pingcastle_3.png)
 
   Après 
   ![]()
