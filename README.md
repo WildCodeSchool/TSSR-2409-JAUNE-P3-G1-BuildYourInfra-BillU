@@ -96,11 +96,14 @@ Par sprint :
 
 # S05
 
-5.1 Création d'un serveur Windows pour la gestion des sauvegardes en RAID 1
+- Création d'un serveur Windows pour la gestion des sauvegardes en RAID 1
+  
+- Mise en places des dossiers de partages avec restrictions d'accès
 
-5.2 Mise en places des dossiers de partages.
 - un dossier individuel nommé I
+
 - un dossier de service nommé J
+
 - un dossier de département nommé K 
 
 # S06
