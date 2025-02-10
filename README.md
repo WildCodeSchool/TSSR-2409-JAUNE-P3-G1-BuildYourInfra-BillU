@@ -133,4 +133,10 @@ Par sprint :
 
 8.4 Instauration d'une relation d'approbation entre les domaines AD des 2 entreprises
  
+## Choix techniques
 
+## Difficultés rencontrées
+
+## Solutions trouvées
+
+## Améliorations possibles
