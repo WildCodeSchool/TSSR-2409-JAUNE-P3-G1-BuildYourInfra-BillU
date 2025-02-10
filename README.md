@@ -88,11 +88,11 @@ Par sprint :
    
 # S04
 
-4.1 Création de GPO pour la gestion de la télémétrie.
+- Création de GPO pour la gestion de la télémétrie.
 
-4.2 Configuration du Firewall PFSense et mise en place de réglés 
+- Configuration du Firewall PFSense et mise en place de réglés 
 
-4.3 Remplissage des Summary sur l'ensemble des machines virtuelle 
+- Remplissage des Summary sur l'ensemble des machines virtuelle 
 
 # S05
 
