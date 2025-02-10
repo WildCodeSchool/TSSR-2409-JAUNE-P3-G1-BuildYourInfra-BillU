@@ -223,7 +223,93 @@ Prérequis techniques
 - Avoir AD DS
 - Avoir une VM Debian
   
-Étapes d'installation et de conf. : instruction étape par étape
+### Installation de glpi:
+- Il est possible d'installer glpi en suivant les étapes de cette documentation:
+
+- Ou bien de transférer le scripte suivant via la commande scp ( ceci nécessite l'installation de Openssh ) puis d'executer ce scripte:
+
+```
+#!/bin/bash
+
+# Mise à jour du système
+apt-get update && apt-get upgrade -y
+
+# Installation des paquets nécessaires
+apt-get install -y apache2 php mariadb-server php-xml php-common php-json php-mysql php-mbstring php-curl php-gd php-intl php-zip php-bz2 php-imap php-apcu php-ldap
+
+# Sécurisation de MySQL (à exécuter manuellement)
+echo "Exécutez manuellement: mysql_secure_installation"
+
+# Création de la base de données et de l'utilisateur
+mysql -e "CREATE DATABASE dbbillu_glpi;"
+mysql -e "GRANT ALL PRIVILEGES ON dbbillu_glpi.* TO glpi_adm@localhost IDENTIFIED BY 'Azerty1*';"
+mysql -e "FLUSH PRIVILEGES;"
+
+# Téléchargement et extraction de GLPI
+cd /tmp
+wget https://github.com/glpi-project/glpi/releases/download/10.0.10/glpi-10.0.10.tgz
+tar -xzvf glpi-10.0.10.tgz -C /var/www/
+
+# Configuration d'Apache
+cat > /etc/apache2/sites-available/WINGUI-1.billu.lan.conf << EOL
+<VirtualHost *:80>
+    ServerName WINGUI-1.billu.lan
+    DocumentRoot /var/www/glpi/public
+    <Directory /var/www/glpi/public>
+        Require all granted
+        RewriteEngine On
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteRule ^(.*)$ index.php [QSA,L]
+    </Directory>
+</VirtualHost>
+EOL
+
+# Configuration des permissions et des dossiers
+chown www-data /var/www/glpi/ -R
+mkdir /etc/glpi && chown www-data /etc/glpi/
+mv /var/www/glpi/config /etc/glpi
+mkdir /var/lib/glpi && chown www-data /var/lib/glpi/
+mv /var/www/glpi/files /var/lib/glpi
+mkdir /var/log/glpi && chown www-data /var/log/glpi
+
+# Configuration de GLPI
+cat > /var/www/glpi/inc/downstream.php << EOL
+<?php
+define('GLPI_CONFIG_DIR', '/etc/glpi/');
+if (file_exists(GLPI_CONFIG_DIR . '/local_define.php')) {
+    require_once GLPI_CONFIG_DIR . '/local_define.php';
+}
+EOL
+
+cat > /etc/glpi/local_define.php << EOL
+<?php
+define('GLPI_VAR_DIR', '/var/lib/glpi/files');
+define('GLPI_LOG_DIR', '/var/log/glpi');
+EOL
+
+# Configuration d'Apache
+a2ensite WINGUI-1.billu.lan.conf
+a2dissite 000-default.conf
+a2enmod rewrite
+
+# Installation et configuration de PHP-FPM
+apt-get install -y php8.3-fpm
+a2enmod proxy_fcgi setenvif
+a2enconf php8.2-fpm
+
+# Configuration de PHP
+sed -i 's/;session.cookie_httponly =/session.cookie_httponly = on/' /etc/php/8.2/fpm/php.ini
+
+# Configuration d'Apache pour PHP-FPM
+echo "<FilesMatch \.php$>
+    SetHandler \"proxy:unix:/run/php/php8.2-fpm.sock|fcgi://localhost/\"
+</FilesMatch>" >> /etc/apache2/sites-available/WINGUI-1.billu.lan.conf
+
+# Redémarrage des services
+systemctl restart apache2
+systemctl restart php8.2-fpm.service
+
+```
 
 Install/conf 1 : GPO Sécurité ( 1 exmeple) blocage panneau conf
 
