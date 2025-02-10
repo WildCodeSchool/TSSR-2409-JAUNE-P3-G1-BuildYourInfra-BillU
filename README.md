@@ -34,41 +34,46 @@ Des personnels extérieurs travaillent ponctuellement ou à temps plein avec cer
 Par sprint :
 # S01
 
-1.1 Faire une proposition d'objectif par sprint pour l'ensemble de la formation
+- Faire une proposition d'objectif par sprint pour l'ensemble de la formation
    
-   
-2.1 Établir un schéma réseau prévisionnel de l'infrastructure
+- Établir un schéma réseau prévisionnel de l'infrastructure
+
+- Établir les tables de routage des routeurs
+
+- Établir une convention de nommage
 
 
 # S02
 
-2.1 Création d'un domaine AD sur un serveur Windows Server 2022 en GUI avec les rôles AD-DC et DHCP et DNS et une réplication du rôle AD-DC sur un serveur Windows Server 2022 Core.
+- Création d'un domaine AD sur un serveur Windows Server 2022 en GUI avec les rôles AD-DC et DHCP et DNS et une réplication du rôle AD-DC sur un serveur Windows Server 2022 Core.
 
-  
-    
-2.2 Création d'une arborescente AD avec une création d'OU et création des groupes avec une convention de nommage.
+- Création d'une arborescente AD avec une création d'OU et création des groupes avec une convention de nommage.
 
+- Gestion de l'arborescence AD
 
-2.3 Intégration des utilisateurs a l'AD-DC
+- Intégration des utilisateurs a l'AD-DC
 
   
    
 # S03
 
-3.1 Création de GPO de sécurité 
+- Création de GPO de sécurité 
 
-- Politique de mot de passe
-- Blocage complet ou partiel au panneau de configuration
-- Ecran de veille avec mot de passe en sortie
-- Imitation des tentatives d'élévation de privilèges
-- Politique de sécurité PowerShell
+	- Politique de mot de passe
+   
+	- Blocage complet ou partiel au panneau de configuration
+   
+	- Ecran de veille avec mot de passe en sortie
+   
+	- Imitation des tentatives d'élévation de privilèges
+   
+	- Politique de sécurité PowerShell
 
-3.2 Création de GPO Standard
-
-- Fond d'écran obligatoire 
-- Mappage de lecteurs
-- Gestion de l'alimentation
-- Déploiement de logiciels telles que Firefox
+- Création de GPO Standard
+	- Fond d'écran obligatoire 
+	- Mappage de lecteurs
+	- Gestion de l'alimentation
+	- Déploiement de logiciels telles que Firefox
 
 
 
