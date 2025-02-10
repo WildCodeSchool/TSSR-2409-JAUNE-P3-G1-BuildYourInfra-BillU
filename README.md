@@ -100,11 +100,11 @@ Par sprint :
   
 - Mise en places des dossiers de partages avec restrictions d'accès
 
-- un dossier individuel nommé I
+	- un dossier individuel nommé I
 
-- un dossier de service nommé J
+	- un dossier de service nommé J
 
-- un dossier de département nommé K 
+	- un dossier de département nommé K 
 
 # S06
 
