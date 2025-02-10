@@ -157,8 +157,21 @@ Par sprint :
  
 ## Choix techniques
 
+L'infrastructure de la société billu étant composé de 100% de postes utilisateurs Windows. Nous avons fait le choix d'éhberger la majorité de notre infrastructue serveur sur des serveurs Windows 2022.  
+
+
+
 ## Difficultés rencontrées
 
+
+
+
+
 ## Solutions trouvées
+
+
+
+
+
 
 ## Améliorations possibles
