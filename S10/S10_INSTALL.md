@@ -26,11 +26,12 @@ Afin de lancer les audits, il faut se connecter sur le PC d'adminsitration, ID 5
   
   Pour auditer le domaine Active Directory billu, vous pouvez installer ![Pingcastle](https://www.pingcastle.com/) ou ![PurpleKnight](https://www.purple-knight.com/fr/). Dans le cas de notre infrastructure, nous utilisons PingCastle, car il suffit de l'installer depuis une machine présente sur l'AD pour qu'il puisse scanner le domaine en entier. Vous recevrez un rapport avec une note sur 100, il faudra tendre vers 0 pour avoir un AD en bonne santé ! 
   
-  Avant recommandations PingCastle
+  Avant 
   
   ![](../Ressources/S10/Pingcastle_3.png)
 
   Après 
+  
   ![](../Ressources/S10/Pingcastle_2.png)
 
 
