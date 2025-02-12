@@ -64,3 +64,7 @@ Afin de lancer les audits, il faut se connecter sur le PC d'adminsitration, ID 5
   ## Panne électrique sur l'infrastructure PRA
 
   ![](../Ressources/S10/pra.png)
+
+## Nos collègues ont du talent 
+
+![](
