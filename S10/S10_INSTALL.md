@@ -39,7 +39,7 @@ Afin de lancer les audits, il faut se connecter sur le PC d'adminsitration, ID 5
   
   ### Audit SERVEURS LINUX 
 
-  ![](../Ressources/S10/S10_Install_Lynis_1.png)   
+  ![](../Ressources/S10/S10_Install_Lynis_1.png)  
   ![](../Ressources/S10/S10_Install_Lynis_2.png) 
   
   ![](../Ressources/S10/S10_Install_Lynis_3.png)   
