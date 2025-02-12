@@ -67,4 +67,6 @@ Afin de lancer les audits, il faut se connecter sur le PC d'adminsitration, ID 5
 
 ## Nos collègues ont du talent 
 
-![](
+![](../Ressources/S10/S10_Ticket_Pb_Connexion.png) 
+
+![](../Ressources/S10/S10_Ticket_Pb_Tele.png)
