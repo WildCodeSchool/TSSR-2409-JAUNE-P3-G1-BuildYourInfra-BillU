@@ -47,12 +47,15 @@ Afin de lancer les audits, il faut se connecter sur le PC d'adminsitration, ID 5
 
 
   ### Score 
+  
   Debian
+  
   ![](../Ressources/S10/S10_Scan_Lynis_Debian12_1.png)
   
   ![](../Ressources/S10/S10_Scan_Lynis_Debian12_2.png)
 
   FreePBX
+  
   ![](../Ressources/S10/S10_Scan_Lynis_FreePBX1.png)
   
   ![](../Ressources/S10/S10_Scan_Lynis_FreePBX2.png)
