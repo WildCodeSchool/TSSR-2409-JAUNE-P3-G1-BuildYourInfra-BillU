@@ -39,13 +39,24 @@ Afin de lancer les audits, il faut se connecter sur le PC d'adminsitration, ID 5
   
   ### Audit SERVEURS LINUX 
 
-  ![](../Ressources/S10/S10_Install_Lynis_1.png)  
-  ![](../Ressources/S10/S10_Install_Lynis_2.png) 
+  ![](../Ressources/S10/S10_Install_Lynis_1.png)   ![](../Ressources/S10/S10_Install_Lynis_2.png) 
   
-  ![](../Ressources/S10/S10_Install_Lynis_3.png)   
-  ![](../Ressources/S10/S10_Install_Lynis_4.png) 
+  ![](../Ressources/S10/S10_Install_Lynis_3.png)   ![](../Ressources/S10/S10_Install_Lynis_4.png) 
   
   ![](../Ressources/S10/S10_Install_Lynis_5.png)  
+
+
+  ### Score 
+  Debian
+  ![](../Ressources/S10/S10_Scan_Lynis_Debian12_1.png)
+  
+  ![](../Ressources/S10/S10_Scan_Lynis_Debian12_2.png)
+
+  FreePBX
+  ![](../Ressources/S10/S10_Scan_Lynis_FreePBX1.png)
+  
+  ![](../Ressources/S10/S10_Scan_Lynis_FreePBX2.png)
+  
   
   ## Panne électrique sur l'infrastructure PRA
 
