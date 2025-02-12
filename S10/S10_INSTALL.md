@@ -31,7 +31,7 @@ Afin de lancer les audits, il faut se connecter sur le PC d'adminsitration, ID 5
   ![](../Ressources/S10/Pingcastle_3.png)
 
   Après 
-  ![]()
+  ![](../Ressources/S10/Pingcastle_2.png)
 
 
 
