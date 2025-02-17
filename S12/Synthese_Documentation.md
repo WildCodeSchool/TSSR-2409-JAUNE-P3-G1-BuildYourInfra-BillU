@@ -1,7 +1,7 @@
 # Tableau de synthèse de la documentation
 
-| Machine/Logiciel  | Statut de la documentation d'installation | Statut de la documentation d'utilisation |
-|:-----------------:|:-----------------------------------------:|:----------------------------------------:|
+| ID Machine  | Machine/Logiciel  | Statut de la documentation d'installation | Statut de la documentation d'utilisation |
+|:-----------------:|:-----------------:|:-----------------------------------------:|:----------------------------------------:|
 | 535 Mail      |  A jour                                   |   Inexistante ( manque de temps  )       |
 | 536 FreePbx       |  A jour                                   |   Inexistante ( manque de temps  )       |
 | 591 Graylog     |  A jour                                   |   Inexistante ( manque de temps  )       |
