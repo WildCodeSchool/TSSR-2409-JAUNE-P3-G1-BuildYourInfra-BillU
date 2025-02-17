@@ -13,7 +13,7 @@
 | 548 G1-WSUS          |  A jour                                   |   Inexistante ( manque de temps  )       |
 | 549 G1-WindowsguiRaid2       |  A jour                                   |   Inexistante ( manque de temps  )       |
 | 550 G1-Pfsense-P3 |  A jour                                   |   Inexistante ( manque de temps  )       |
-| 551 G1-Vyos |  A jour                                   |   Inexistante ( manque de temps  )       |
+| 551 G1-Vyos |  Inexistante ( pas d'utilité )                                   |   Inexistante ( manque de temps  )       |
 | 552 G1-Admin-linux          |  Inexistante ( pas d'utilité )            |   Inexistante ( inutile  )               |
 | 553 G1-Wincore         |  Inexistante  ( non fonctionnnelle )      |   Inexistante  ( non fonctionnnelle )    |
 | 559 G1-Admin    |  A jour                                   |   Inexistante ( inutile  )               |
