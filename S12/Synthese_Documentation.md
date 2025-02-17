@@ -2,17 +2,18 @@
 
 | Machine/Logiciel  | Statut de la documentation d'installation | Statut de la documentation d'utilisation |
 |:-----------------:|:-----------------------------------------:|:----------------------------------------:|
-| 530 Zimbra        |  A jour                                   |   Inexistante ( manque de temps  )       |
-| 531 Redmine       |  A jour                                   |   Inexistante ( manque de temps  )       |
-| 532 Passbolt      |  A jour                                   |   Inexistante ( manque de temps  )       |
-| 533 Apache        |  A jour                                   |   Inexistante ( manque de temps  )       |
-| 541 Wserver       |  A jour                                   |   Inexistante ( manque de temps  )       |
-| 542 WserserCore   |  A jour                                   |   Inexistante ( manque de temps  )       |
-| 543 pfSense       |  A jour                                   |   Inexistante ( manque de temps  )       |
-| 544 Debian-GLPI   |  A jour                                   |   Inexistante ( manque de temps  )       |
-| 545 VyOS          |  A jour                                   |   Inexistante ( manque de temps  )       |
-| 547 FreePBX       |  A jour                                   |   Inexistante ( manque de temps  )       |
-| 550 Debian Zabbix |  A jour                                   |   Inexistante ( manque de temps  )       |
-| 552 Kali          |  Inexistante ( pas d'utilité )            |   Inexistante ( inutile  )               |
-| 553 Snort         |  Inexistante  ( non fonctionnnelle )      |   Inexistante  ( non fonctionnnelle )    |
-| 554 Guacamole     |  A jour                                   |   Inexistante ( inutile  )               |
+| 535 Mail      |  A jour                                   |   Inexistante ( manque de temps  )       |
+| 536 FreePbx       |  A jour                                   |   Inexistante ( manque de temps  )       |
+| 591 Graylog     |  A jour                                   |   Inexistante ( manque de temps  )       |
+| 541 G1-WINGUI-1      |  A jour                                   |   Inexistante ( manque de temps  )       |
+| 542 G1-Client1      |  A jour                                   |   Inexistante ( manque de temps  )       |
+| 543 G1-WinCore-1  |  A jour                                   |   Inexistante ( manque de temps  )       |
+| 544 G1-Client2       |  A jour                                   |   Inexistante ( manque de temps  )       |
+| 545 G1-Debian-12   |  A jour                                   |   Inexistante ( manque de temps  )       |
+| 548 G1-WSUS          |  A jour                                   |   Inexistante ( manque de temps  )       |
+| 549 G1-WindowsguiRaid2       |  A jour                                   |   Inexistante ( manque de temps  )       |
+| 550 G1-Pfsense-P3 |  A jour                                   |   Inexistante ( manque de temps  )       |
+| 551 G1-Vyos |  A jour                                   |   Inexistante ( manque de temps  )       |
+| 552 G1-Admin-linux          |  Inexistante ( pas d'utilité )            |   Inexistante ( inutile  )               |
+| 553 G1-Wincore         |  Inexistante  ( non fonctionnnelle )      |   Inexistante  ( non fonctionnnelle )    |
+| 559 G1-Admin    |  A jour                                   |   Inexistante ( inutile  )               |
