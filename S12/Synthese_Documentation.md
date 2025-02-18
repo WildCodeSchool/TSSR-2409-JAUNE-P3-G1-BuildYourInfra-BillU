@@ -15,7 +15,7 @@
 | 550 | G1-Pfsense-P3      | Firewall |                 [À jour](../S04/S04_INSTALL.md)                             |   Inexistante ( manque de temps  )       |
 | 551 | G1-Vyos | Routeur |              Inexistante (matériel non mis en ligne)                       |   Inexistante ( inutile  )       |
 | 552 | G1-Admin-linux | Pc Administration |  Inexistante (matériel non mis en ligne)            |   Inexistante ( inutile  )               |
-| 553 | G1-Wincore    |      |               [À jour](../S09/S09_INSTALL.md)                                    |   Inexistante  ( non fonctionnnelle )    |
+| 553 | G1-Wincore    |    PC Backup  |               [À jour](../S09/S09_INSTALL.md)                                    |   Inexistante  ( non fonctionnnelle )    |
 | 559 | G1-Admin    | Pc D'administration : PingCastle , Lynis|                                 |   Inexistante ( manque de temps  )               |
 
 
