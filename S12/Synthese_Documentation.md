@@ -2,7 +2,7 @@
 
 | ID Machine  | Nom de la machine | Statut de la documentation d'installation | Statut de la documentation d'utilisation |
 |:-----------------:|:-----------------:|:-----------------------------------------:|:----------------------------------------:|
-| 535 | Mail      |  A                                |   Inexistante ( manque de temps  )       |
+| 535 | Mail      |  [À jour](                               |   Inexistante ( peu pertinente  )       |
 | 536 | FreePbx       |  A j                                |   Inexistante ( manque de temps  )       |
 | 591 | Graylog     |  A                                |   Inexistante ( manque de temps  )       |
 | 541 | G1-WINGUI-1      |  A r                                   |   Inexistante ( manque de temps  )       |
