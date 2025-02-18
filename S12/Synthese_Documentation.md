@@ -4,7 +4,7 @@
 |:-----------------:|:-----------------:|:-----------------------------------------:|:----------------------------------------:|
 | 535 | Mail      |  [À jour](../S07/s07_INSTALL.md)                               |   Inexistante ( peu pertinente  )       |
 | 536 | FreePbx       |  [À jour](../S09/S09_INSTALL.md)                           |   Inexistante ( manque de temps  )       |
-| 591 | Graylog     |  Non-utilisable (conflits entre paquets de logiciels)                           |   Inexistante ( manque de temps  )       |
+| 591 | Graylog     |  [Non-utilisable](../S06/S06_INSTALL.md)  (conflits entre paquets de logiciels)                           |   Inexistante ( manque de temps  )       |
 | 541 | G1-WINGUI-1      |  A r                                   |   Inexistante ( manque de temps  )       |
 | 542 | G1-Client1      |                                    |   Inexistante ( manque de temps  )       |
 | 543 | G1-WinCore-1  |                                   |   Inexistante ( manque de temps  )       |
