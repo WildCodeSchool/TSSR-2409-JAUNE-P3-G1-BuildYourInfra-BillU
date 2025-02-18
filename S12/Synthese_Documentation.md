@@ -5,7 +5,7 @@
 | 535 | Mail      | Iredmail | [À jour](../S07/s07_INSTALL.md)                               |   Inexistante ( peu pertinente  )       |
 | 536 | FreePbx      | FreePBX |  [À jour](../S09/S09_INSTALL.md)                           |   Inexistante ( inutile  )       |
 | 591 | Graylog     | Graylog |  [Non-utilisable](../S06/S06_INSTALL.md)  (conflits entre paquets de logiciels)                           |   Inexistante ( inutile  )       |
-| 541 | G1-WINGUI-1  | AD, DNS, DHCP   |  A r                                   |   Inexistante ( manque de temps  )       |
+| 541 | G1-WINGUI-1  | AD, DNS, DHCP   | [À jour](../S02/S02_INSTALL.md)                             |   Inexistante ( manque de temps  )       |
 | 542 | G1-Client1   |   |                                    |   Inexistante ( manque de temps  )       |
 | 543 | G1-WinCore-1  | |                                   |   Inexistante ( manque de temps  )       |
 | 544 | G1-Client2     |  |                                    |   Inexistante ( manque de temps  )       |
