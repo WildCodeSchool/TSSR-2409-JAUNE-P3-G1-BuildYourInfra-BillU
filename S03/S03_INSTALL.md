@@ -216,7 +216,7 @@ Environnent de test sur Proxmox en VM
 
   ![](../Ressources/S03/05GPO-MisveilScope.png)
 
-## 3 Installation et configuration d'un serveur de gestion de parc: 
+## 3 Installation et configuration d'un serveur de gestion de parc:[#GLPI] 
 
 
 Prérequis techniques
