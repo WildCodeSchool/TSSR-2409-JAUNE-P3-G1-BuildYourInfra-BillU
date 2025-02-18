@@ -9,7 +9,7 @@
 | 542 | G1-Client1   |   |                                    |   Inexistante ( manque de temps  )       |
 | 543 | G1-WinCore-1  | Réplication AD |    À jour                           |   Inexistante ( manque de temps  )       |
 | 544 | G1-Client2     |                |                                    |   Inexistante ( manque de temps  )       |
-| 545 | G1-Debian-12    | GLPI |    [À jour](../S02/S02_INSTALL.md)                                 |   Inexistante ( manque de temps  )       |
+| 545 | G1-Debian-12    | GLPI |    [À jour](../S03/S03_INSTALL.md)                                 |   Inexistante ( manque de temps  )       |
 | 548 | G1-WSUS          | WSUS, WBS |    [À jour](..                               |   Inexistante ( manque de temps  )       |
 | 549 | G1-WindowsguiRaid2 |      |              [À jour](../S05/s05_INSTALL.md)                        |   Inexistante ( manque de temps  )       |
 | 550 | G1-Pfsense-P3      | Firewall |                                             |   Inexistante ( manque de temps  )       |
